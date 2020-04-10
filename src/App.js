@@ -333,7 +333,7 @@ var pages = [
           You feel flushed, a wave of heat stampedes through your body with Em’s
           star-like eagerness emanating from their invitation. Any tiredness you
           felt earlier was scorched away. *Yawn* Well, almost. The last time you
-          saw Em was at the Port of Praise Festival…Em really did it! The
+          saw Em was at the Port of Praise Festival...Em really did it! The
           excitement you feel is immediately cut by the loud whirring of the
           terrace mowers below. Your mail notification chimes again...
         </div>
