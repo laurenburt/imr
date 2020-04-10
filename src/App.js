@@ -150,7 +150,7 @@ var pages = [
         </div>
         <div className="next2">
           <Link to="/sleep2">
-            <img src="/cleararrow.png" width="100" height="125"></img>
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
       </div>
@@ -244,7 +244,7 @@ var pages = [
         </div>
         <div className="next2">
           <Link to="/breakfast">
-            <img src="/cleararrow.png" width="100" height="125"></img>
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
       </div>
@@ -339,7 +339,7 @@ var pages = [
         </div>
         <div className="next2">
           <Link to="/check2">
-            <img src="/cleararrow.png" width="100" height="125"></img>
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
       </div>
@@ -366,7 +366,7 @@ var pages = [
         </div>
         <div className="next2">
           <Link to="/breakfast">
-            <img src="/cleararrow.png" width="100" height="125"></img>
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
       </div>
@@ -459,7 +459,7 @@ var pages = [
 
         <div className="next2">
           <Link to="/tmeet">
-            <img src="/cleararrow.png" width="100" height="125"></img>
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
       </div>
@@ -531,7 +531,7 @@ var pages = [
         </div>
         <div className="next2">
           <Link to="/tmeet3">
-            <img src="/cleararrow.png" width="100" height="125"></img>
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
       </div>
@@ -583,7 +583,7 @@ var pages = [
         </div>
         <div className="next2">
           <Link to="/gmeet">
-            <img src="/cleararrow.png" width="100" height="125"></img>
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
       </div>
@@ -673,7 +673,7 @@ var pages = [
         </div>
         <div className="next2">
           <Link to="/strangerdanger">
-            <img src="/cleararrow.png" width="100" height="125"></img>
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
       </div>
@@ -715,7 +715,7 @@ var pages = [
         </div>
         <div className="next2">
           <Link to="/strangerdanger">
-            <img src="/cleararrow.png" width="100" height="125"></img>
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
       </div>
@@ -776,7 +776,7 @@ var pages = [
         </div>
         <div className="next2">
           <Link to="/gmeet3">
-            <img src="/cleararrow.png" width="100" height="125"></img>
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
       </div>
@@ -817,7 +817,7 @@ var pages = [
         </div>
         <div className="next2">
           <Link to="gmeet4">
-            <img src="/cleararrow.png" width="100" height="125"></img>
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
       </div>
@@ -887,7 +887,7 @@ function Check1(props) {
 
       <div className="next2">
         <Link to="/aftermail1">
-          <img src="/cleararrow.png" width="100" height="125"></img>
+          <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
     </div>
@@ -921,7 +921,7 @@ function Check2(props) {
 
       <div className="next2">
         <Link to="/aftermail2">
-          <img src="/cleararrow.png" width="100" height="125"></img>
+          <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
     </div>
@@ -972,7 +972,7 @@ function Letter1(props) {
       </div>
       <div className="next">
         <Link to="/afterletter1">
-          <img src="/cleararrow.png" width="100" height="125"></img>
+          <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
     </div>
@@ -1023,7 +1023,7 @@ function Letter2(props) {
       </div>
       <div className="next">
         <Link to="/afterletter2">
-          <img src="/cleararrow.png" width="100" height="125"></img>
+          <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
     </div>
@@ -1049,7 +1049,7 @@ function Tmeet2a(props) {
       </div>
       <div className="next2">
         <Link to="/tmeet3">
-          <img src="/cleararrow.png" width="100" height="125"></img>
+          <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
     </div>
@@ -1252,7 +1252,7 @@ function Business(props) {
       </div>
       <div className="next2">
         <Link to="/gmeet4">
-          <img src="/cleararrow.png" width="100" height="125"></img>
+          <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
     </div>
@@ -1295,7 +1295,7 @@ function Gmeet4(props) {
       </div>
       <div className="next2">
         <Link to="/roshas">
-          <img src="/cleararrow.png" width="100" height="125"></img>
+          <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
     </div>
@@ -1341,7 +1341,7 @@ function Roshas(props) {
       </div>
       <div className="goright">
         <Link to="/afterroshas">
-          <img src="/cleararrow.png" width="100" height="125"></img>
+          <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
     </div>
