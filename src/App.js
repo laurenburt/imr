@@ -52,10 +52,9 @@ var pages = [
       <div className="wrapper">
         <div className="item1">
           <span className="lombardic">E</span>
-          arly morning light late night wades through the bay window onto an
-          amber desk. The sounds of hundreds of phoenix herons’ wings murmur
-          throughout Shale in their eastward migration, drawing the season to a
-          close.
+          arly morning light wades through the bay window onto an amber desk.
+          The sounds of hundreds of phoenix herons’ wings murmur throughout
+          Shale in their eastward migration, drawing the season to a close.
         </div>
         <div className="item2">
           <div class="gradient-border" id="box"></div>
