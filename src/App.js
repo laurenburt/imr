@@ -244,7 +244,7 @@ var pages = [
         </div>
         <div className="next2">
           <Link to="breakfast">
-            <img src="cleararrow.png" width="100" height="125"></img>
+            <img width="100" height="125" src="cleararrow.png"></img>
           </Link>
         </div>
       </div>
