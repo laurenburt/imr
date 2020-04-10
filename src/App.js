@@ -1350,6 +1350,7 @@ function Roshas(props) {
 }
 
 function App() {
+  console.log("hello app");
   const [name, setName] = React.useState("");
 
   return (
