@@ -149,7 +149,7 @@ var pages = [
           solace.
         </div>
         <div className="next2">
-          <Link to="/sleep2">
+          <Link to="sleep2">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -243,7 +243,7 @@ var pages = [
           terrace mowers below.
         </div>
         <div className="next2">
-          <Link to="/breakfast">
+          <Link to="breakfast">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -338,7 +338,7 @@ var pages = [
           terrace mowers below. Your mail notification chimes again...
         </div>
         <div className="next2">
-          <Link to="/check2">
+          <Link to="check2">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -365,7 +365,7 @@ var pages = [
           solace.
         </div>
         <div className="next2">
-          <Link to="/breakfast">
+          <Link to="breakfast">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -458,7 +458,7 @@ var pages = [
         </div>
 
         <div className="next2">
-          <Link to="/tmeet">
+          <Link to="tmeet">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -530,7 +530,7 @@ var pages = [
           </div>
         </div>
         <div className="next2">
-          <Link to="/tmeet3">
+          <Link to="tmeet3">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -582,7 +582,7 @@ var pages = [
           You take a tumble forward, your luck having run out.
         </div>
         <div className="next2">
-          <Link to="/gmeet">
+          <Link to="gmeet">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -672,7 +672,7 @@ var pages = [
           shoulder and puts a hand out with a devilish smile.
         </div>
         <div className="next2">
-          <Link to="/strangerdanger">
+          <Link to="strangerdanger">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -714,7 +714,7 @@ var pages = [
           shoulder and puts a hand out with a devilish smile.
         </div>
         <div className="next2">
-          <Link to="/strangerdanger">
+          <Link to="strangerdanger">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -775,7 +775,7 @@ var pages = [
           functional, also looked rather cute...
         </div>
         <div className="next2">
-          <Link to="/gmeet3">
+          <Link to="gmeet3">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -886,7 +886,7 @@ function Check1(props) {
       </div>
 
       <div className="next2">
-        <Link to="/aftermail1">
+        <Link to="aftermail1">
           <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
@@ -920,7 +920,7 @@ function Check2(props) {
       </div>
 
       <div className="next2">
-        <Link to="/aftermail2">
+        <Link to="aftermail2">
           <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
@@ -971,7 +971,7 @@ function Letter1(props) {
         Ember
       </div>
       <div className="next">
-        <Link to="/afterletter1">
+        <Link to="afterletter1">
           <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
@@ -1022,7 +1022,7 @@ function Letter2(props) {
         Ember
       </div>
       <div className="next">
-        <Link to="/afterletter2">
+        <Link to="afterletter2">
           <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
@@ -1048,7 +1048,7 @@ function Tmeet2a(props) {
         It’s hard to tell.
       </div>
       <div className="next2">
-        <Link to="/tmeet3">
+        <Link to="tmeet3">
           <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
@@ -1251,7 +1251,7 @@ function Business(props) {
         </div>
       </div>
       <div className="next2">
-        <Link to="/gmeet4">
+        <Link to="gmeet4">
           <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
@@ -1294,7 +1294,7 @@ function Gmeet4(props) {
         </div>
       </div>
       <div className="next2">
-        <Link to="/roshas">
+        <Link to="roshas">
           <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
@@ -1340,7 +1340,7 @@ function Roshas(props) {
         in hand- this time you walk back the way you came.
       </div>
       <div className="goright">
-        <Link to="/afterroshas">
+        <Link to="afterroshas">
           <img src="cleararrow.png" width="100" height="125"></img>
         </Link>
       </div>
