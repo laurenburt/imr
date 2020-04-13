@@ -660,22 +660,22 @@ var pages = [
             somehow you aren't dead.
           </p>
           <p>
-            <div class="indent1">
+            <p class="indent1">
               <span class="bold1">???:</span> It's a good day for a stroll,
               though I'd have chosen a wider street to try those slick tricks of
               yours.
-            </div>
+            </p>
           </p>
           <p>
             A mellow voice registers, and as the shock of the crash subsides,
             you notice the steely and soft grip of a hand at your waist-
           </p>
           <p>
-            <div class="indent1">
+            <p class="indent1">
               <span class="bold1">???:</span> Let me guess, you thoughts if you
               ran to Rosha's you'd beat the morning rush? Sorry- you might be
               waiting a little longer. I just bought all of the pastries here.
-            </div>
+            </p>
           </p>
           <p>OK, now you open your eyes.</p>
         </div>
