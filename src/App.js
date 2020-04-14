@@ -1,6 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Media, Player, controls } from "react-media-player";
+import ReactDOM from "react-dom";
 import "./App.css";
+
+const { PlayPause, MuteUnmute } = controls;
 
 var pages = [
   //title
@@ -53,25 +57,27 @@ var pages = [
   {
     path: "/intro1",
     body: (
-      <div className="wrapper">
-        <div className="item1">
-          <span className="lombardic">E</span>
-          arly morning light wades through the bay window onto an amber desk.
-          The sounds of hundreds of phoenix herons’ wings murmur throughout
-          Shale in their eastward migration, drawing the season to a close.
-        </div>
-        <div className="item2">
-          <div class="gradient-border" id="box"></div>
-        </div>
-        <div className="item3">
-          Their unmistakable calls bring you back to the golden days when you
-          met your greatest love and your greatest enemy at the greatest
-          showcase on the planet.
-        </div>
-        <div className="item4">
-          <Link to="intro2">
-            <img width="100" height="125" src="cleararrow.png"></img>
-          </Link>
+      <div className="body2">
+        <div className="wrapper">
+          <div className="item1">
+            <span className="lombardic">E</span>
+            arly morning light wades through the bay window onto an amber desk.
+            The sounds of hundreds of phoenix herons’ wings murmur throughout
+            Shale in their eastward migration, drawing the season to a close.
+          </div>
+          <div className="item2">
+            <div class="gradient-border" id="box"></div>
+          </div>
+          <div className="item3">
+            Their unmistakable calls bring you back to the golden days when you
+            met your greatest love and your greatest enemy at the greatest
+            showcase on the planet.
+          </div>
+          <div className="item4">
+            <Link to="intro2">
+              <img width="100" height="125" src="cleararrow.png"></img>
+            </Link>
+          </div>
         </div>
       </div>
     ),
@@ -890,6 +896,26 @@ function Page(props) {
     </div>
   );
 }
+
+class MediaPlayer extends Component {
+  render() {
+    return (
+      <Media>
+        <div className="media">
+          <div className="media-player">
+            <Player src="https://www.youtube.com/watch?v=RZ8y37jMX4A" />
+          </div>
+          <div className="media-controls">
+            <PlayPause />
+            <MuteUnmute />
+          </div>
+        </div>
+      </Media>
+    );
+  }
+}
+
+// ReactDOM.render(<App />, document.getElementById("app"));
 
 // name input/output functions
 function Sintax(props) {
