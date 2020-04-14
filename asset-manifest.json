@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/imr/static/css/main.bf2bb24e.chunk.css",
+    "main.css": "/imr/static/css/main.360ae106.chunk.css",
     "main.js": "/imr/static/js/main.b0c8f315.chunk.js",
     "main.js.map": "/imr/static/js/main.b0c8f315.chunk.js.map",
     "runtime-main.js": "/imr/static/js/runtime-main.4247f1f4.js",
@@ -8,15 +8,15 @@
     "static/js/2.30a35499.chunk.js": "/imr/static/js/2.30a35499.chunk.js",
     "static/js/2.30a35499.chunk.js.map": "/imr/static/js/2.30a35499.chunk.js.map",
     "index.html": "/imr/index.html",
-    "precache-manifest.06524cb0537627b65d77ac078a884ebc.js": "/imr/precache-manifest.06524cb0537627b65d77ac078a884ebc.js",
+    "precache-manifest.665a5bedc2a6a63f1225f1212a2bb209.js": "/imr/precache-manifest.665a5bedc2a6a63f1225f1212a2bb209.js",
     "service-worker.js": "/imr/service-worker.js",
-    "static/css/main.bf2bb24e.chunk.css.map": "/imr/static/css/main.bf2bb24e.chunk.css.map",
+    "static/css/main.360ae106.chunk.css.map": "/imr/static/css/main.360ae106.chunk.css.map",
     "static/js/2.30a35499.chunk.js.LICENSE": "/imr/static/js/2.30a35499.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.4247f1f4.js",
     "static/js/2.30a35499.chunk.js",
-    "static/css/main.bf2bb24e.chunk.css",
+    "static/css/main.360ae106.chunk.css",
     "static/js/main.b0c8f315.chunk.js"
   ]
 }
