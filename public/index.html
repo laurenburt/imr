@@ -44,15 +44,55 @@
       href="https://fonts.googleapis.com/css?family=Bad+Script"
       rel="stylesheet"
     />
-    <style></style>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      audio {
+        width: 100px;
+        box-shadow: 20px 5px 20px rgba(0, 51, 102, 40);
+        border-radius: 100px;
+        transform: scale(01);
+      }
+
+      /* .audiogrid > div {
+        border: 1px solid black;
+      }
+
+      .audiogrid {
+        width: 100px;
+        box-shadow: 20px 5px 20px rgba(0, 51, 102, 40);
+        border-radius: 100px;
+        transform: scale(01);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+
+      .audioplayer {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 9;
+      } */
+    </style>
   </head>
   <body>
-    <header>
-      <!-- <h1> imr </h1> -->
-    </header>
-
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- <div className="audiogrid">
+      <div className="audioplayer">
+        <audio class="audio" controls="controls">
+          <source type="audio/mp3" src="imrmix1.mp3" />
+        </audio>
+      </div>
+    </div> -->
+    <audio class="audio" controls="controls" align-items="right">
+      <source type="audio/mp3" src="imrmix1.mp3" />
+    </audio>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -63,15 +103,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-
-    <!-- <audio loop controls>
-      <source src="imrmix1.mp3" type="audio/mp3" />
-      Your browser does not support the audio element.
-    </audio> -->
-
-    <!-- <audio class="audio" controls="controls">
-      <source type="audio/mp3" src="imrmix1.mp3" />
-    </audio> -->
   </body>
   <script src="https://unpkg.com/react-media-player/dist/react-media-player.js"></script>
   <script></script>

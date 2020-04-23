@@ -1,5 +1,32 @@
-* {
-  /* 	outline: none; */
+.player {
+  display: flex;
+}
+
+.controls {
+  flex-grow: 1;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.player__button {
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+}
+.player__button:focus {
+  outline: none;
+}
+.player__button:hover {
+  cursor: pointer;
+}
+svg {
+  color: #e07245;
+}
+
+svg {
+  font-size: 8em;
+  color: #003366;
 }
 
 /*👇 for preload play/pause svg 😎*/
@@ -13,7 +40,7 @@
             url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/163884/pause.svg);
     } */
 
-article {
+/* article {
   position: absolute;
   width: 50px;
   height: 100px;
@@ -22,9 +49,7 @@ article {
   bottom: 40px;
   right: 0;
   margin: auto;
-  /* 	text-align: center; */
   padding: 50px 5%;
-  /* 	box-sizing: border-box; */
   box-shadow: 0 0 21px 0px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
@@ -32,7 +57,6 @@ article {
 .mejs-container {
   background: #003366;
   font-family: Helvetica, Arial;
-  /* 	text-align: left; */
   vertical-align: top;
   text-indent: 0;
   width: 50px !important;
@@ -97,4 +121,4 @@ article {
 
 .mejs-controls .mejs-button button:focus {
   outline: none;
-}
+} */

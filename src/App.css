@@ -3,7 +3,6 @@ body {
   font-size: 2em;
   font-family: "Tajawal", sans-serif;
   color: #003366;
-
   background: radial-gradient(ellipse at top, #45b3e0, transparent),
     radial-gradient(ellipse at bottom, #e07245, transparent);
 
@@ -12,36 +11,50 @@ body {
   background-attachment: fixed;
   background-size: 100%;
 
-  /* margin-top: 60px; */
   outline: none;
 }
-
-.body2 {
-  /* font-family: "Hind Madurai", sans-serif; */
-  font-family: "Tajawal", sans-serif;
-  color: #003366;
-
-  background: radial-gradient(ellipse at top, #45b3e0, transparent),
+.sunrise {
+  /* background: radial-gradient(ellipse at top, #45b3e0, transparent),
     radial-gradient(ellipse at bottom, #e07245, transparent);
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: 100%;
   width: 100wh;
   height: 100vh;
-  /* width: 100%;
-  height: 100%; */
-
-  /* margin-top: 60px; */
-  /* outline: none; */
+  min-height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center; */
 }
 
-audio {
-  width: 400px;
+.sunset {
+  background: radial-gradient(ellipse at top, #45b3e0, transparent),
+    radial-gradient(ellipse at bottom, #e07245, transparent);
+  background-size: 100%;
+  width: 100wh;
+  height: 100vh;
+}
+
+/* audio {
+  width: 100px;
   box-shadow: 20px 5px 20px rgba(0, 51, 102, 40);
   border-radius: 100px;
   transform: scale(01);
+} */
+
+.audiogrid > div {
+  border: 1px solid black;
+}
+
+.audiogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.audioplayer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 8;
+  grid-row-end: 9;
 }
 
 /* indentation */
@@ -68,8 +81,23 @@ p.rosha {
   font-weight: bold;
 }
 
+p.harcartt {
+  text-indent: -4.5em;
+  font-weight: bold;
+}
+
+p.em {
+  text-indent: -2em;
+  font-weight: bold;
+}
+
+p.automaton {
+  text-indent: -5.5em;
+  font-weight: bold;
+}
+
 span.bold1 {
-  font-size: 40px;
+  font-size: 1.1em;
   font-weight: bolder;
 }
 
@@ -77,31 +105,99 @@ span.bold2 {
   font-weight: bold;
 }
 
-span.lombardic {
+span.end {
+  font-family: "Katibeh", cursive;
+  font-size: 20em;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: -webkit-linear-gradient(#003366, #c0c0c0);
+  /* background: -webkit-linear-gradient(#003366, #6e0202); */
+
+  text-align: center;
+  /* background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(20%, #003366),
+    color-stop(40%, #c0c0c0),
+    color-stop(60%, #6e0202),
+    color-stop(80%, #003366)
+  ); */
+  background: linear-gradient(
+    to right,
+    #003366 20%,
+    #6e0202 40%,
+    #6e0202 60%,
+    #003366 80%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: shine 3s linear infinite;
+  animation: shine 3s linear infinite;
+}
+@-webkit-keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.the {
+  font-family: "Katibeh", cursive;
+  font-size: 3em;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: -webkit-linear-gradient(#003366, #c0c0c0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lombardic {
   float: left;
   font-family: "Katibeh", cursive;
+  /* font-family: "Tajawal", sans-serif; */
   font-size: 15em;
   background: -webkit-linear-gradient(#003366, #c0c0c0);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 97%;
+  /* line-height: 40%; */
   padding-top: 4px;
   padding-right: 8px;
   padding-left: 3px;
   padding-bottom: 1px;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
 
 .wrapper {
   display: grid;
   /* font-family: "Tajawal", sans-serif; */
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
   color: #003366;
   /* grid-template-columns: 1fr 0.2fr 1fr 1fr 1fr 0.5fr;
   grid-template-rows: 0.05fr 0.4fr 0.2fr 0.1fr 0.4fr 0.05fr; */
 
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 0.6fr;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.6fr;
   grid-template-rows: 0.05fr 0.4fr 0.2fr 0.1fr 0.4fr 0.05fr;
+
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 0.6fr;
+  grid-template-rows: 0.05fr 1fr 0.2fr 0.1fr 0.4fr 0.05fr; */
 
   /*
               grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -109,12 +205,19 @@ span.lombardic {
 }
 
 .wrapper > div {
-  border: 1px solid black;
-  font-size: 22;
+  /* border: 1px solid black; */
+  /* font-size: 22; */
 }
 
-.item1 {
+/* .lom {
   grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+} */
+
+.item1 {
+  grid-column-start: 2;
   grid-column-end: 6;
   grid-row-start: 2;
   grid-row-end: 4;
@@ -169,7 +272,9 @@ input[type="image"] {
   /* background-color: inherit; */
   /* padding: 14px 28px; */
   font-family: "Kavivanar", cursive;
-  font-size: 500px;
+  /* font-size: 400px; */
+  font-size: 12em;
+
   /* display: flex; */
   display: inline-block;
   align-items: center;
@@ -212,7 +317,7 @@ input[type="image"] {
   color: blue; */
   text-align: center;
   font-family: federo-custom;
-  font-size: 90px;
+  font-size: 3em;
   font-weight: normal;
   font-style: normal;
   background: -webkit-linear-gradient(#003366, #c0c0c0);
@@ -259,31 +364,12 @@ input[type="image"] {
   grid-template-rows: 350px 350px 350px; */
 
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 0.5;
+  grid-template-rows: 1fr;
   align-items: center;
   justify-content: center;
 }
 /* .wrapper2 > div {
   border: 1px solid black;
-} */
-
-/* grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: 1fr 0.05fr 0.05fr; */
-
-/* grid-template-columns: 1fr;
-  grid-template-rows: 0.3fr 0.1fr;
-}
-
-.wrapper2 > div {
-  border: 1px solid black;
-}
-.imr1 {
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.imr2 {
-  grid-row-start: 2;
-  grid-row-end: 3;
 } */
 
 .centered {
@@ -405,10 +491,9 @@ input[type="image"] {
 
 /* home page background */
 
-.home {
+/* .home {
   width: 100wh;
   height: 100vh;
-  /* color: #fff; */
   background: radial-gradient(#3b6d7f, #c3efff, #347f7e, #16637f, #234f7f);
   background-size: 400% 400%;
   -webkit-animation: Gradient 20s ease infinite;
@@ -450,7 +535,7 @@ input[type="image"] {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 
 /* sintax logo and form */
 
@@ -727,6 +812,50 @@ input[type="image"] {
   grid-row-start: 4;
   grid-row-end: 5;
 }
+
+/* grid for flashbacks */
+
+.flashback {
+  display: grid;
+  /* grid-template-columns: 0.1fr 0.3fr 2fr 0.3fr 0.1fr;
+  grid-template-rows: 0.1fr 1fr 2fr 0.5fr 0.5fr 0.1fr; */
+
+  grid-template-columns: 0.1fr 0.3fr 2fr 0.3fr 0.1fr;
+  grid-template-rows: 0.1fr 0.5fr 2fr 0.3fr 0.3fr 0.1fr;
+}
+
+/* .bird > div {
+  border: solid black;
+} */
+
+.back {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-family: "Tangerine", cursive;
+  /* font-weight: bold; */
+  /* font-family: "Jomhuria", cursive; */
+  font-size: 4em;
+  color: #003366;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+/* .text4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.goright {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+} */
 
 /* grid for letter */
 
