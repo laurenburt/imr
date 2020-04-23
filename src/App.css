@@ -25,13 +25,13 @@ body {
   background-position: center; */
 }
 
-.sunset {
+/* .sunset {
   background: radial-gradient(ellipse at top, #45b3e0, transparent),
     radial-gradient(ellipse at bottom, #e07245, transparent);
   background-size: 100%;
   width: 100wh;
   height: 100vh;
-}
+} */
 
 /* audio {
   width: 100px;
@@ -165,15 +165,22 @@ span.end {
 }
 .lombardic {
   float: left;
-  font-family: "Katibeh", cursive;
-  /* font-family: "Tajawal", sans-serif; */
-  font-size: 15em;
+  /* font-family: "Katibeh", cursive; */
+  /* font-family: "Gentium Basic", serif; */
+  /* font-family: "Cinzel", serif; */
+  /* font-family: "Cardo", serif; */
+  font-family: "Gentium Book Basic", serif;
+
+  /* font-weight: bold; */
+
+  /* font-family: "Asul", sans-serif; */
+
+  font-size: 12em;
   background: -webkit-linear-gradient(#003366, #c0c0c0);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 97%;
-  /* line-height: 40%; */
+  line-height: 70%;
   padding-top: 4px;
   padding-right: 8px;
   padding-left: 3px;
@@ -194,7 +201,7 @@ span.end {
   grid-template-rows: 0.05fr 0.4fr 0.2fr 0.1fr 0.4fr 0.05fr; */
 
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.6fr;
-  grid-template-rows: 0.05fr 0.4fr 0.2fr 0.1fr 0.4fr 0.05fr;
+  grid-template-rows: 0.04fr 1.1fr 1fr 0.4fr 0.3fr 0.04fr;
 
   /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 0.6fr;
   grid-template-rows: 0.05fr 1fr 0.2fr 0.1fr 0.4fr 0.05fr; */
@@ -204,10 +211,9 @@ span.end {
               grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
 }
 
-.wrapper > div {
-  /* border: 1px solid black; */
-  /* font-size: 22; */
-}
+/* .wrapper > div {
+  border: 1px solid black;
+} */
 
 /* .lom {
   grid-column-start: 1;
