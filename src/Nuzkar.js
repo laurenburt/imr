@@ -74,7 +74,7 @@ export var pages2 = [
   {
     path: "/redhare3",
     body: (
-      <div className="sunrise">
+      <div className="sunset">
         <div className="bigdialogue">
           <div className="dialogue">
             <p>
@@ -122,12 +122,12 @@ export var pages2 = [
 
           <div className="apples">
             <Link to="/read">
-              <a className="textlink"> Read a book</a>
+              <a className="textlink2"> Read a book</a>
             </Link>
           </div>
           <div className="oranges">
             <Link to="/nap">
-              <a className="textlink"> Take a nap</a>
+              <a className="textlink2"> Take a nap</a>
             </Link>
           </div>
         </div>
@@ -139,8 +139,8 @@ export var pages2 = [
   {
     path: "/read",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="sunset">
+        <div className="smalltext">
           <div className="maintext">
             <p>You read a book to pass the time.</p>
             <p>
@@ -164,8 +164,8 @@ export var pages2 = [
   {
     path: "/nap",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="sunset">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               It takes you a minute, but eventually, with the aid of Shale honey
@@ -186,8 +186,8 @@ export var pages2 = [
   {
     path: "/flight",
     body: (
-      <div className="sunrise">
-        <div className="bigdialogue">
+      <div className="sunset">
+        <div className="smalldialogue">
           <div className="dialogue">
             <p class="harcartt">
               <span class="bold1">Harcartt:</span> <i>ahem-hem</i> ...What yer
@@ -210,12 +210,12 @@ export var pages2 = [
 
           <div className="apples">
             <Link to="/restroom">
-              <a className="textlink"> The restroom window!</a>
+              <a className="textlink2"> The restroom window!</a>
             </Link>
           </div>
           <div className="oranges">
             <Link to="/caboose">
-              <a className="textlink"> The caboose!</a>
+              <a className="textlink2"> The caboose!</a>
             </Link>
           </div>
         </div>
@@ -227,8 +227,8 @@ export var pages2 = [
   {
     path: "/restroom",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="sunset">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               You enter the restroom by scanning your card. Your preset
@@ -270,8 +270,8 @@ export var pages2 = [
   {
     path: "/caboose",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="sunset">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               You enter the caboose and hurry to the balcony, your hands on the
@@ -313,7 +313,7 @@ export var pages2 = [
   {
     path: "/back",
     body: (
-      <div className="sunrise">
+      <div className="flashbackground">
         <div className="flashback">
           <div className="back">(outside the expo site)</div>
           <div className="text4">
@@ -350,7 +350,7 @@ export var pages2 = [
   {
     path: "/emeet",
     body: (
-      <div className="sunrise">
+      <div className="flashbackground">
         <div className="bigdialogue">
           <div className="dialogue">
             <p>This was your first visit to Astris.</p>
@@ -389,12 +389,12 @@ export var pages2 = [
 
           <div className="apples">
             <Link to="/change">
-              <a className="textlink"> Give change</a>
+              <a className="textlink2"> Give change</a>
             </Link>
           </div>
           <div className="oranges">
             <Link to="/nochange">
-              <a className="textlink"> Do not give change</a>
+              <a className="textlink2"> Do not give change</a>
             </Link>
           </div>
         </div>
@@ -406,8 +406,8 @@ export var pages2 = [
   {
     path: "/change",
     body: (
-      <div className="sunrise">
-        <div className="bigdialogue">
+      <div className="flashbackground">
+        <div className="smalldialogue">
           <div className="dialogue">
             <p>The crowd dwindles until you are the only person left.</p>
             <p>
@@ -419,12 +419,12 @@ export var pages2 = [
 
           <div className="apples">
             <Link to="/amazing">
-              <a className="textlink"> That was amazing!</a>
+              <a className="textlink2"> That was amazing!</a>
             </Link>
           </div>
           <div className="oranges">
             <Link to="/something">
-              <a className="textlink"> That was something</a>
+              <a className="textlink2"> That was something</a>
             </Link>
           </div>
         </div>
@@ -435,8 +435,8 @@ export var pages2 = [
   {
     path: "/amazing",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="flashbackground">
+        <div className="smalltext">
           <div className="maintext">
             <p>You put in Em's hat a chunk of change.</p>
             <p class="em">
@@ -465,8 +465,8 @@ export var pages2 = [
   {
     path: "/something",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="flashbackground">
+        <div className="smalltext">
           <div className="maintext">
             <p>You put in Em's hat some coins.</p>
             <p class="em">
@@ -493,7 +493,7 @@ export var pages2 = [
   {
     path: "/hot",
     body: (
-      <div className="sunrise">
+      <div className="flashbackground">
         <div className="bigtext">
           <div className="maintext">
             <p>
@@ -548,20 +548,20 @@ export var pages2 = [
   {
     path: "/nochange",
     body: (
-      <div className="sunrise">
-        <div className="bigdialogue">
-          <div className="dialogue">
+      <div className="flashbackground">
+        <div className="abgrid">
+          <div className="text">
             <p> You reconsider-</p>
           </div>
 
-          <div className="apples">
+          <div className="left">
             <Link to="/genvo">
-              <a className="textlink"> Send credit to Em's Genvo</a>
+              <a className="textlink2"> Send credit to Em's Genvo</a>
             </Link>
           </div>
-          <div className="oranges">
+          <div className="right">
             <Link to="/backtowork">
-              <a className="textlink"> Get back to work</a>
+              <a className="textlink2"> Get back to work</a>
             </Link>
           </div>
         </div>
@@ -573,8 +573,8 @@ export var pages2 = [
   {
     path: "/genvo",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="flashbackground">
+        <div className="smalltext">
           <div className="maintext">
             <p>You send Em some credit and turn to leave.</p>
             <p>Before you turn around you notice Em packing</p>
@@ -594,7 +594,7 @@ export var pages2 = [
   {
     path: "/cute",
     body: (
-      <div className="sunrise">
+      <div className="flashbackground">
         <div className="bigtext">
           <div className="maintext">
             <p>
@@ -653,8 +653,8 @@ export var pages2 = [
   {
     path: "/backtowork",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="flashbackground">
+        <div className="smalltext">
           <div className="maintext">
             <p>Before you can take a step toward the Expo site, you hear Em.</p>
             <p class="em">
@@ -691,7 +691,7 @@ export var pages2 = [
   {
     path: "/redhare4b",
     body: (
-      <div className="sunrise">
+      <div className="flashbackground">
         <div className="bigtext">
           <div className="maintext">
             <p className="harcartt">
@@ -736,7 +736,7 @@ export var pages2 = [
   {
     path: "/redhare4a",
     body: (
-      <div className="sunrise">
+      <div className="sunset">
         <div className="bigtext">
           <div className="maintext">
             <p className="harcartt">
@@ -781,7 +781,7 @@ export var pages2 = [
   {
     path: "/n1",
     body: (
-      <div className="sunrise">
+      <div className="sunset">
         <div className="bigtext">
           <div className="maintext">
             <p>
@@ -833,7 +833,7 @@ export var pages2 = [
   {
     path: "/n2",
     body: (
-      <div className="sunrise">
+      <div className="sunset">
         <div className="bigtext">
           <div className="maintext">
             <p>
@@ -883,8 +883,8 @@ export var pages2 = [
   {
     path: "/n3",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="sunset">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               Some stray phoenix herons have nested on lampposts, others on the
@@ -914,7 +914,7 @@ export var pages2 = [
   {
     path: "/n4",
     body: (
-      <div className="sunrise">
+      <div className="sunset">
         <div className="bigtext">
           <div className="maintext">
             <p>a bell chimes</p>
@@ -956,7 +956,7 @@ export var pages2 = [
   {
     path: "/n5",
     body: (
-      <div className="sunrise">
+      <div className="sunset">
         <div className="bigtext">
           <div className="maintext">
             <p>You feel a chill run down your spine.</p>
@@ -1017,8 +1017,8 @@ export var pages2 = [
   {
     path: "/n7",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="sunset">
+        <div className="smalltext">
           <div className="maintext">
             <p className="gale">
               <span class="bold1">Gale:</span> Just a usual day at work- I
@@ -1057,9 +1057,9 @@ export var pages2 = [
   {
     path: "/n8",
     body: (
-      <div className="sunrise">
-        <div className="bigdialogue">
-          <div className="dialogue">
+      <div className="sunset">
+        <div className="abgrid">
+          <div className="text">
             <p>
               While you describe your trip up until the moment the sentinel
               attacked, Gale nods, listening. Hru remains silent, quietly
@@ -1072,14 +1072,14 @@ export var pages2 = [
             </p>
           </div>
 
-          <div className="apples">
+          <div className="left">
             <Link to="/idk">
-              <a className="textlink">I don't know...</a>
+              <a className="textlink2">I don't know...</a>
             </Link>
           </div>
-          <div className="oranges">
+          <div className="right">
             <Link to="/inb">
-              <a className="textlink">I've never been</a>
+              <a className="textlink2">I've never been</a>
             </Link>
           </div>
         </div>
@@ -1091,12 +1091,12 @@ export var pages2 = [
   {
     path: "/idk",
     body: (
-      <div className="sunrise">
-        <div className="bigdialogue">
+      <div className="sunset">
+        <div className="smalldialogue">
           <div className="dialogue">
             <p>
               You thank the two of them and explain you don't want to hold up
-              Gale from work. Besides, you've never rideen on a disc board
+              Gale from work. Besides, you've never ridden on a disc board
               before. Can two people even fit on one?
             </p>
 
@@ -1112,12 +1112,12 @@ export var pages2 = [
 
           <div className="apples">
             <Link to="/ref1">
-              <a className="textlink">Refuse</a>
+              <a className="textlink2">Refuse</a>
             </Link>
           </div>
           <div className="oranges">
             <Link to="/ot1">
-              <a className="textlink">Okay then!</a>
+              <a className="textlink2">Okay then!</a>
             </Link>
           </div>
         </div>
@@ -1129,8 +1129,8 @@ export var pages2 = [
   {
     path: "/inb",
     body: (
-      <div className="sunrise">
-        <div className="bigdialogue">
+      <div className="sunset">
+        <div className="smalldialogue">
           <div className="dialogue">
             <p className="gale">
               <span class="bold1">Gale:</span> You'll be alright- trust me. Just
@@ -1149,12 +1149,12 @@ export var pages2 = [
 
           <div className="apples">
             <Link to="/ot1">
-              <a className="textlink">Okay then!</a>
+              <a className="textlink2">Okay then!</a>
             </Link>
           </div>
           <div className="oranges">
             <Link to="/ref1">
-              <a className="textlink">Refuse</a>
+              <a className="textlink2">Refuse</a>
             </Link>
           </div>
         </div>
@@ -1166,8 +1166,8 @@ export var pages2 = [
   {
     path: "/ref1",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="sunset">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               Gale's face changes. The wistful and dreamy detective's eyes
@@ -1211,8 +1211,8 @@ export var pages2 = [
   {
     path: "/ref2",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="sunset">
+        <div className="smalltext">
           <div className="maintext">
             <p>Oh right...that Galedream. And now this nightmare.</p>
             <p>
@@ -1248,15 +1248,17 @@ export var pages2 = [
   {
     path: "/ref3",
     body: (
-      <div className="wrapper2">
-        <div className="imr1">
-          <div className="centered">
-            <span className="end">End</span>
+      <div className="theend">
+        <div className="wrapper2">
+          <div className="imr1">
+            <div className="centered">
+              <span className="end">eNd</span>
+            </div>
           </div>
-        </div>
-        <div className="imr2">
-          <div className="centered">
-            <span className="the">ad meliora</span>
+          <div className="imr2">
+            <div className="centered">
+              <span className="the">ad meliora</span>
+            </div>
           </div>
         </div>
       </div>
@@ -1267,7 +1269,7 @@ export var pages2 = [
   {
     path: "/ot1",
     body: (
-      <div className="sunrise">
+      <div className="sunset">
         <div className="bigtext">
           <div className="maintext">
             <p>
@@ -1317,8 +1319,8 @@ export var pages2 = [
   {
     path: "/ot2",
     body: (
-      <div className="sunrise">
-        <div className="bigtext">
+      <div className="sunset">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               You rub your eyes and notice Gale's goggles perched on the
@@ -1358,7 +1360,7 @@ export var pages2 = [
   {
     path: "/ot3",
     body: (
-      <div className="sunrise">
+      <div className="sunset">
         <div className="bigtext">
           <div className="maintext">
             <p>Hru quietly steers the disc, heading to Em's home.</p>
@@ -1423,7 +1425,7 @@ export var pages2 = [
 
 export function N6(props) {
   return (
-    <div className="sunrise">
+    <div className="sunset">
       <div className="bigtext">
         <div className="maintext">
           <p> You try to scream but are unable to make a sound.</p>
@@ -1490,7 +1492,7 @@ export function N6(props) {
 
 export function OT4(props) {
   return (
-    <div className="sunrise">
+    <div className="sunset">
       <div className="bigtext">
         <div className="maintext">
           <p className="gale">

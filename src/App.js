@@ -149,7 +149,7 @@ var pages = [
     path: "/aftermail1",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             Nix as usual, is unfailingly tough and tender. The last time you
             spoke was before the Expo. The message leaves you awash in a
@@ -253,7 +253,7 @@ var pages = [
     path: "/afterletter2",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             You feel flushed, a wave of heat stampedes through your body with
             Em’s star-like eagerness emanating from their invitation. Any
@@ -356,7 +356,7 @@ var pages = [
     path: "/afterletter1",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             You feel flushed, a wave of heat stampedes through your body with
             Em’s star-like eagerness emanating from their invitation. Any
@@ -384,7 +384,7 @@ var pages = [
     path: "/aftermail2",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             Nix as usual, is unfailingly tough and tender. The last time you
             spoke was before the Expo. The message leaves you awash in a
@@ -433,7 +433,7 @@ var pages = [
             </Link>
           </div>
           <div className="right">
-            <Link to="/wafelrols">
+            <Link to="/wafelrols1">
               <a className="textlink">Wafelrols sound divine</a>
             </Link>
           </div>
@@ -449,7 +449,7 @@ var pages = [
     path: "/honeyjacks",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               You manage to get out of bed- as soon as your feet touch the floor
@@ -485,7 +485,7 @@ var pages = [
     path: "/honeyjacks2",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               {" "}
@@ -641,10 +641,10 @@ var pages = [
   //************* WAFELROLS **************
   // walk to hinks
   {
-    path: "/wafelrols",
+    path: "/wafelrols1",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>Wafelrols, your favorite!</p>
             <p>
@@ -664,6 +664,24 @@ var pages = [
               resident performers, their animal compatriots, self-avowed freaks
               and roving mystics. The smell of spices and citrus entice you.
             </p>
+          </div>
+          <div className="next2">
+            <Link to="wafelrols2">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/wafelrols2",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
             <p>
               <span className="bold2">'Look out!'</span>
             </p>
@@ -681,7 +699,7 @@ var pages = [
               You look ahead and before you can yell, you are about to crash
               into someone holding a tower of Hotcake boxes.
             </p>
-            You take a tumble forward, your luck having run out.
+            <p> You take a tumble forward, your luck having run out.</p>
           </div>
           <div className="next2">
             <Link to="gmeet">
@@ -900,7 +918,7 @@ var pages = [
     path: "/wink",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               You address yourself warmly and with a brief moment of eye
@@ -930,6 +948,35 @@ var pages = [
           </div>
           <div className="next2">
             <Link to="gmeet4">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/roshas1",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              Your stomach riots in high alert. As the adrenaline from the
+              encounter with Gale leaves you, you almost keel over from your
+              hunger pangs. You hold your prize wafelrol lovingly and devour it
+              on the spot. As you bite into the rol the layered flavors of moon
+              wafel, crunchy citric wafer, rich Kobo cream, hot cake, kleechi
+              jelly and salted caramel burst in your mouth. You forget your
+              troubles for a moment, and as good things most often do, your
+              wafelrol ended as quickly as it began... Surprising no one, you
+              crave more.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="roshas2">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -1099,7 +1146,7 @@ function Check2(props) {
 
 function Letter1(props) {
   return (
-    <div className="sunrise">
+    <div className="sunrisescroll">
       <div className="letter">
         <div className="main">
           <p>{props.name}, Hey it’s been a while, hasn’t it?</p>
@@ -1148,7 +1195,7 @@ function Letter1(props) {
 
 function Letter2(props) {
   return (
-    <div className="sunrise">
+    <div className="sunrisescroll">
       <div className="letter">
         <div className="main">
           <p>{props.name}, Hey it’s been a while, hasn’t it?</p>
@@ -1198,7 +1245,7 @@ function Letter2(props) {
 function Tmeet2a(props) {
   return (
     <div className="sunrise">
-      <div className="bigtext">
+      <div className="smalltext">
         <div className="maintext">
           <p>
             Hink’s door entrance bell jingles as a spry elderly person wearing a
@@ -1333,7 +1380,7 @@ function Tmeet3(props) {
 function Gmeet3(props) {
   return (
     <div className="sunrise">
-      <div className="bigdialogue">
+      <div className="smalldialogue">
         <div className="dialogue">
           <p>
             Before you can claim your wafelrol, you hear a short and loud beep.
@@ -1380,7 +1427,7 @@ function Gmeet3(props) {
 function Business(props) {
   return (
     <div className="sunrise">
-      <div className="bigtext">
+      <div className="smalltext">
         <div className="maintext">
           <p>You address yourself as formally as you can.</p>
           <p class="gale">
@@ -1454,7 +1501,7 @@ function Gmeet4(props) {
           </p>
         </div>
         <div className="next2">
-          <Link to="roshas">
+          <Link to="roshas1">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -1463,23 +1510,12 @@ function Gmeet4(props) {
   );
 }
 
-function Roshas(props) {
+function Roshas2(props) {
   return (
     <div className="sunrise">
       <div className="bird">
-        <div className="birdsong">...grumble~grumble...</div>
+        <div className="birdsong">...grumble...</div>
         <div className="text4">
-          <p>
-            Your stomach riots in high alert. As the adrenaline from the
-            encounter with Gale leaves you, you almost keel over from your
-            hunger pangs. You hold your prize wafelrol lovingly and devour it on
-            the spot. As you bite into the rol the layered flavors of moon
-            wafel, crunchy citric wafer, rich Kobo cream, hot cake, kleechi
-            jelly and salted caramel burst in your mouth. You forget your
-            troubles for a moment, and as good things most often do, your
-            wafelrol ended as quickly as it began... Surprising no one, you
-            crave more.
-          </p>
           <p className="rosha">
             <span className="bold1">Rosha:</span> I know that face, ha! Come in{" "}
             {props.name}. I'll get you fixed up with some more rols.
@@ -1519,7 +1555,11 @@ export function App() {
     // <div style={{background: this.state.color}} id="main">
     <Router>
       {/* <input onChange={(e) => setName(e.target.value)}></input> */}
-      {/* {name == "Lauren" ? "great god" : name} */}
+      {/* {name == "Lauren" ? "" : name} */}
+
+      <audio class="audio" controls="controls">
+        <source type="audio/mp3" src="imrmix1.mp3" />
+      </audio>
 
       <div className="App">
         <Switch>
@@ -1527,9 +1567,6 @@ export function App() {
             <div id="home" style={{ width: "100%", height: "100vh" }} />
             <div id="home" />
           </Route> */}
-          {/* <audio class="audio" controls="controls">
-            <source type="audio/mp3" src="imrmix1.mp3" />
-          </audio> */}
 
           {pages.map((page) => (
             <Route path={page.path} exact={true}>
@@ -1575,8 +1612,8 @@ export function App() {
             <Gmeet4 name={name}></Gmeet4>
           </Route>
 
-          <Route path={"/roshas"} exact={true}>
-            <Roshas name={name}></Roshas>
+          <Route path={"/roshas2"} exact={true}>
+            <Roshas2 name={name}></Roshas2>
           </Route>
 
           {/* <Route path={"/unrolled"} exact={true}>
