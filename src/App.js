@@ -6,7 +6,8 @@ import "./App.css";
 import { pages2 } from "./Nuzkar";
 // import { Unrolled } from "./Nuzkar";
 import { N6 } from "./Nuzkar";
-import { OT4 } from "./Nuzkar";
+import { OT5 } from "./Nuzkar";
+import { Party4 } from "./Nuzkar";
 const { PlayPause, MuteUnmute } = controls;
 
 var pages = [
@@ -183,7 +184,7 @@ var pages = [
             window. You see a phoenix heron looking at you intently.
           </div>
           <div className="left">
-            <Link to="/crash2">
+            <Link to="/ph2">
               <a className="textlink">Ignore it and go back to sleep</a>
             </Link>
           </div>
@@ -199,13 +200,13 @@ var pages = [
     links: [],
   },
 
-  //crash 2
+  //open2
   {
-    path: "/crash2",
+    path: "/ph2",
     body: (
       <div className="sunrise">
-        <div className="bird">
-          <div className="birdsong">p'pippety-chee!</div>
+        <div className="crash">
+          <div className="noise">p'pippety-chee!</div>
           <div className="text4">
             You've only just drifted off when you are rudely awakened by an
             emphatic bird call. Suddenly, you jump out of bed at the presence of
@@ -286,7 +287,7 @@ var pages = [
             window. You see a phoenix heron looking at you intently.
           </div>
           <div className="left">
-            <Link to="/crash1">
+            <Link to="/ph1">
               <a className="textlink">Ignore it and go back to sleep</a>
             </Link>
           </div>
@@ -302,11 +303,11 @@ var pages = [
   },
 
   {
-    path: "/crash1",
+    path: "/ph1",
     body: (
       <div className="sunrise">
-        <div className="bird">
-          <div className="birdsong">p'pippety-chee!</div>
+        <div className="crash">
+          <div className="noise">p'pippety-chee!</div>
           <div className="text4">
             You've only just drifted off when you are rudely awakened by an
             emphatic bird call. Suddenly, you jump out of bed at the presence of
@@ -428,13 +429,13 @@ var pages = [
             </p>
           </div>
           <div className="left">
-            <Link to="/honeyjacks">
-              <a className="textlink">Honeyjax are irresistable</a>
+            <Link to="/honeyholes1">
+              <a className="textlink">Honeyholes sound divine</a>
             </Link>
           </div>
           <div className="right">
             <Link to="/wafelrols1">
-              <a className="textlink">Wafelrols sound divine</a>
+              <a className="textlink">Wafelrols are irresistable</a>
             </Link>
           </div>
         </div>
@@ -443,10 +444,10 @@ var pages = [
     links: [],
   },
 
-  //************* HONEYJACKS **************
+  //************HONEYHOLES **************
   // walk to hinks
   {
-    path: "/honeyjacks",
+    path: "/honeyholes1",
     body: (
       <div className="sunrise">
         <div className="smalltext">
@@ -471,7 +472,7 @@ var pages = [
           </div>
 
           <div className="next2">
-            <Link to="honeyjacks2">
+            <Link to="honeyholes2">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -482,7 +483,7 @@ var pages = [
   },
 
   {
-    path: "/honeyjacks2",
+    path: "/honeyholes2",
     body: (
       <div className="sunrise">
         <div className="smalltext">
@@ -509,7 +510,7 @@ var pages = [
           </div>
 
           <div className="next2">
-            <Link to="honeyjacks3">
+            <Link to="honeyholes3">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -520,11 +521,11 @@ var pages = [
   },
 
   {
-    path: "/honeyjacks3",
+    path: "/honeyholes3",
     body: (
       <div className="sunrise">
-        <div className="bird">
-          <div className="birdsong">...grumble...</div>
+        <div className="crash">
+          <div className="noise">...grumble...</div>
           <div className="text4">
             <p>
               Your appreciation for life quickly turns to indignant envy.{" "}
@@ -532,19 +533,38 @@ var pages = [
               empty canal covered station stop nearby and duck into it.
               <i>Oracle, if you will, active mode.</i> Your octic clothing
               changes form, the layered outfit’s cells shift into athletic wear,
-              and your footwear adjusts for optimal first meal chasing. Taking a
-              breath, you start jogging to Hink’s, passing by neighborhood
-              vendors, school children in uniforms, city officials guiding
-              tourists, buskers, Gangreen’s on stoop’s planning their next
-              misadventure. You see Hink’s yellow signage six buildings away, a
-              welcome beacon. Starting to dash, your eyes fixated and nose glued
-              to the wafting smell of Hink’s honey hocks. You're two buildings
-              away, Finally!
+              and your footwear adjusts for optimal first meal chasing.
             </p>
           </div>
-
           <div className="goright">
-            <Link to="tmeet">
+            <Link to="honeyholes4">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/honeyholes4",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              Taking a breath, you start jogging to Hink’s, passing by
+              neighborhood vendors, school children in uniforms, city officials
+              guiding tourists, buskers, Gangreen’s on stoop’s planning their
+              next misadventure. You see Hink’s yellow signage six buildings
+              away, a welcome beacon. Starting to dash, your eyes fixated and
+              nose glued to the wafting smell of Hink’s honeyholes. You're two
+              buildings away, Finally!
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="tmeet1">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -556,36 +576,53 @@ var pages = [
 
   // t meet
   {
-    path: "/tmeet",
+    path: "/tmeet1",
     body: (
       <div className="sunrise">
         <div className="crash">
           <div className="noise">*CRASH*</div>
-          <div className="text3">
+          <div className="text4">
             <p>
               You run into something as solid as space concrete. Your breath
               leaves your body as you fall to your back.
             </p>
             <p class="indent1">
-              <span class="bold1">???:</span> Guah! My suit... the honey holes!
+              <span class="bold1">???:</span> Guah! My suit... the honeyholes!
               Hey, do you need help?{" "}
             </p>
+          </div>
+          <div className="goright">
+            <Link to="tmeet1.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet1.5",
+    body: (
+      <div className="sunrise">
+        <div className="longresponse">
+          <div className="text3">
             <p>
               <i>*ungh*</i> You’re on the ground seeing stars. Your sight comes
-              back, and you look up and see someone doused in Hink’s honey
-              hole’s. Custard, glaze, jelly filling and pieces of honey hole
-              pastry are splattered all over this towering figures tailor tight
-              emerald trim suited body, their face masked in pastry cream. A
-              comical sight except for the terrifying glare coming from the two
-              eye holes on Creamface.
+              back, and you look up and see someone doused in Hink’s honeyholes.
+              Custard, glaze, jelly filling and pieces of honeyhole pastry are
+              splattered all over this towering figures tailor tight emerald
+              trim suited body, their face masked in pastry cream. A comical
+              sight except for the terrifying glare coming from the two eye
+              holes on Creamface.
             </p>
           </div>
-          .
           <div className="top">
             <Link to="/tmeet2a">
               <a className="textlink">
                 Sorry I ran into you! Let me help you clean up and get you some
-                fresh honey holes!
+                fresh honeyholes!
               </a>
             </Link>
           </div>
@@ -620,7 +657,7 @@ var pages = [
             <p>
               <div class="ran">
                 <span class="bold1">Ran: </span> What a collision that was!
-                Those poor honey holes. How about you two come inside and I’ll
+                Those poor honeyholes. How about you two come inside and I’ll
                 fix you up and a fresh batch
               </div>
             </p>
@@ -629,6 +666,208 @@ var pages = [
             <Link to="tmeet3">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet4",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              Elder Ran whistles, and a cleaner dog pads from around the counter
+              to the window corner where Creamface is standing. Cat paws at
+              their shoes then bows its head in a gesture.
+            </p>
+            <p class="indent1">
+              <span class="bold1"> ???: </span> A cleaner dog...I thought they
+              were zero’d...
+            </p>
+
+            <p class="ran">
+              <span class="bold1">Ran: </span>Cat, like my old man Hink, is
+              considered a national treasure. He’s 300 cycles old and still has
+              gusto.
+            </p>
+          </div>
+
+          <div className="next2">
+            <Link to="tmeet5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet5",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              Figures the codger would work a sales pitch in somewhere... For
+              all the hustling maneuvers elder Ran tells the truth, well mostly.
+            </p>
+            <p class="indent1">
+              <span class="bold1"> ???: </span> Before my grandparents were
+              born, dogs were genetically manufactured to serve as man’s best
+              friend AND service. There were actor dogs, guard dogs, guide dogs,
+              circus clown dogs, space engineer dogs, chef dogs, poet dogs,
+              metal band lead singer dogs, art critic dogs- there were even dog
+              dogs!
+            </p>
+            <p>
+              You and Ran both raise your eyebrows. Until now, Creamface barely
+              spoke.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="tmeet6">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet6",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              Figures the codger would work a sales pitch in somewhere... For
+              all the hustling maneuvers elder Ran tells the truth, well mostly.
+            </p>
+            <p class="indent1">
+              <span class="bold1"> ???: </span> Before my grandparents were
+              born, dogs were genetically manufactured to serve as man’s best
+              friend AND service. There were actor dogs, guard dogs, guide dogs,
+              circus clown dogs, space engineer dogs, chef dogs, poet dogs,
+              metal band lead singer dogs, art critic dogs- there were even dog
+              dogs!
+            </p>
+            <p>
+              You and Ran both raise your eyebrows. Until now, Creamface barely
+              spoke.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="tmeet7">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+  {
+    path: "/tmeet7",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p class="ran">
+              <span class="bold1">Ran: </span> Seems like someone knows their
+              dogs.
+            </p>
+            <p class="indent1">
+              <span class="bold1"> ???: </span> I used to read dog
+              picture-pedias when I was little. I can’t believe I’m seeing one.
+            </p>
+            <p class="ran">
+              <span class="bold1">Ran: </span>Is that so? I wouldn’t have marked
+              you for a dog lover. You see, Cat is waiting for permission. Would
+              you like him to clean you?
+            </p>
+            <p class="indent1">
+              <span class="bold1"> ???: </span>Would I!? Cat, please clean me,
+              if you will.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="tmeet8">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet8",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            Kneeling in ceremonial fashion before Cat’s nose, creamed head bows
+            toward the canine. With a merry woof, Cat’s pale pink tongue sets to
+            work, extending, licking and cleaning in lightning succession.
+            Before the genetic ban, cleaner dogs were genetically modified to
+            have tongues that could extend to great lengths, purify any surface
+            it touched, and bodies that were able to process any substance, even
+            high grade pollutants. Vanguards of public health, they aided in
+            cleansing toxic zones. Their saliva was even said to cure cancers.
+            In a matter of moments, Cat’s work is finished.
+          </div>
+          <div className="next2">
+            <Link to="tmeet9">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet9",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              The old dog yips to signal completion and scampers happily back to
+              rest in his bedding below the countertop, having had more treats
+              than he was expecting. Creamface rises from his bow. The emerald
+              suit that was stained is now spotless. In fact it seems to shine
+              with a minty luster. Statuesque, as if the suit was carved on
+              them, you notice the chiseled and robust features of your new
+              acquaintance. They turn toward you, jade iris eyes, a kind smile,
+              face carved by the goddesses themselves and all.
+            </p>
+            <p class="indent1">
+              <span class="bold1"> ???: </span>Uhhh, is there something still on
+              my face?
+            </p>
+            <p>You feel the warmth of your cheeks flushed.</p>
+
+            <p className="apples">
+              <Link to="/number">
+                <a className="textlink">No, I was admiring the view...</a>
+              </Link>
+            </p>
+            <p className="oranges">
+              <Link to="/pawwork">
+                <a className="textlink">I'm amazed at Cat's paw work!</a>
+              </Link>
+            </p>
           </div>
         </div>
       </div>
@@ -702,7 +941,7 @@ var pages = [
             <p> You take a tumble forward, your luck having run out.</p>
           </div>
           <div className="next2">
-            <Link to="gmeet">
+            <Link to="gmeet1">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -713,33 +952,48 @@ var pages = [
   },
 
   {
-    path: "/gmeet",
+    path: "/gmeet1",
     body: (
       <div className="sunrise">
         <div className="crash">
           <div className="noise">~fwip~</div>
-          <div className="text3">
+          <div className="text4">
             <p>
               Eyes closed bracing for impact, your sense of suspense fades-
               somehow you aren't dead.
             </p>
-            <p>
-              <p class="indent1">
-                <span class="bold1">???:</span> It's a good day for a stroll,
-                though I'd have chosen a wider street to try those slick tricks
-                of yours.
-              </p>
+            <p class="indent1">
+              <span class="bold1">???:</span> It's a good day for a stroll,
+              though I'd have chosen a wider street to try those slick tricks of
+              yours.
             </p>
+          </div>
+          <div className="goright">
+            <Link to="gmeet1.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/gmeet1.5",
+    body: (
+      <div className="sunrise">
+        <div className="longresponse">
+          <div className="text3">
             <p>
               A mellow voice registers, and as the shock of the crash subsides,
               you notice the steely and soft grip of a hand at your waist-
             </p>
             <p>
               <p class="indent1">
-                <span class="bold1">???:</span> Let me guess, you thoughts if
-                you ran to Rosha's you'd beat the morning rush? Sorry- you might
-                be waiting a little longer. I just bought all of the pastries
-                here.
+                <span class="bold1">???:</span> Let me guess, you thought if you
+                ran to Rosha's you'd beat the morning rush? Sorry- you might be
+                waiting a little longer. I just bought all of the pastries here.
               </p>
             </p>
             <p>OK, now you open your eyes.</p>
@@ -797,7 +1051,7 @@ var pages = [
           </div>
 
           <div className="next2">
-            <Link to="strangerdanger">
+            <Link to="gmeet3">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -840,7 +1094,7 @@ var pages = [
           </div>
 
           <div className="next2">
-            <Link to="strangerdanger">
+            <Link to="gmeet3">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -851,13 +1105,13 @@ var pages = [
   },
 
   {
-    path: "/strangerdanger",
+    path: "/gmeet3",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
-              Red flags. Ranger Danger! No one in Shale is this cool. The
+              Red flags. Stranger Danger! No one in Shale is this cool. The
               stranger lifts their fingers in gesture toward you.
             </p>
             <p className="indent1">
@@ -866,17 +1120,33 @@ var pages = [
               right?
             </p>
             <p>
-              The danger stranger before you dusts their bowler cap from the
+              The mysterious figure before you dusts their bowler cap from the
               street floor before flicking it neatly on their head like a
               trickster's coin bet flip against the gods. It registers that they
               are wearing a long platinum grey blue ombre coat-
-            </p>{" "}
-            You get the sense that they...
+            </p>
             <p>
-              {" "}
               At the mention of wafelrols, you wonder where the Rosha boxes you
               almost crashed into are...Stranger Danger whistles
             </p>
+          </div>
+          <div className="next2">
+            <Link to="gmeet4">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/gmeet4",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
             <p className="indent1">
               <span className="bold1">???:</span> Hru, bring 'em down won't you?
             </p>
@@ -894,7 +1164,26 @@ var pages = [
               body in an exlamation point, as if to convey that the person
               beside the machine indeed is a living warning sign.
             </p>
+          </div>
+          <div className="next2">
+            <Link to="gmeet5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/gmeet5",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
             <p>
+              {" "}
               You recall your mid level arcstories. Vrnyan technology though
               ancient, is highly advanced- many of the modern innovations made
               throughout the world stem from the inventiveness of the Vrynyan's.
@@ -904,7 +1193,35 @@ var pages = [
             </p>
           </div>
           <div className="next2">
-            <Link to="gmeet3">
+            <Link to="gmeet6">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/gmeet6",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              Before you can claim your wafelrol, you hear a short and loud
+              beep. Standing in front of the hot cake shop is a waifish woman
+              with short parted hair and a demure expression on her face- she
+              holds out a cashiers pad in one hand toward the stranger.
+            </p>
+            <p class="rosha">
+              <span class="bold1">Rosha: </span> Don't forgot to sign your key
+              receipt.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="gmeet7">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -934,11 +1251,7 @@ var pages = [
               <span className="bold1">Gale:</span> No, no...Hru blew in a bit of
               dust my way, I'm fine
             </p>
-            <p> Gale lifts their head and returns another wink.</p>
-            <p>
-              This time you blush. Hru hovers between you and Gale with a
-              whisper.
-            </p>
+            <p>Hru hovers between you and Gale with a whisper.</p>
 
             <p className="hru">
               <span className="bold1">Hru:</span> Hrmm, Hrmm. CO- I received a
@@ -947,7 +1260,39 @@ var pages = [
             </p>
           </div>
           <div className="next2">
-            <Link to="gmeet4">
+            <Link to="gmeet8">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+  {
+    path: "/gmeet9",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p class="gale">
+              <span class="bold1">Gale: </span> See you around I hope.
+            </p>
+            <p>
+              Gale beaming, nods, turns, and walks a couple steps forward. With
+              a flashy motion, an alloy disc drops from out of Gale's trench
+              coat's left sleeve and into their hand. Gale drops the disc and
+              kicks it. The disc expands and hovers. They hop on and begin
+              ascending above the buildings with Hru following in tow. You hear
+              Gale faintly in the distance.
+            </p>
+            <p className="gale">
+              <span className="bold1">Gale:</span> I've got the worst luck
+              Hru...
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="roshas1">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -986,6 +1331,38 @@ var pages = [
     links: [],
   },
 
+  {
+    path: "/roshas3",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p className="rosha">
+              <span className="bold1">Rosha:</span> Gale there works for the
+              civic enterprise. I got a rush order for some visiting dignitary
+              from South Wards branch officer right before I opened. Almost said
+              no to the government, ha! Lucky for them, Gale is incredibly
+              persuasive. I'm pretty sure that one can convince day its night.
+            </p>
+            <p>
+              You converse with Rosha at length over Angra tea while she kneads
+              and works on a fresh set of rols. Her partner Mik, assistant
+              siblings Camas and Shrum's content shuffles and laughter punctuate
+              the back kitchen ongoings. After some time, you bid Rosha
+              farewell, a bag of fresh rols in hand- this time you walk back the
+              way you came.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="redhare1">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
   // functions
 ].concat(pages2);
 export function Page(props) {
@@ -1273,10 +1650,10 @@ function Tmeet2a(props) {
 function Tmeet3(props) {
   return (
     <div className="sunrise">
-      <div className="bigdialogue">
-        <div className="dialogue">
+      <div className="smalltext">
+        <div className="maintext">
           <p>
-            You get up and help pick up the honey hole’s scattered about. Hink’s
+            You get up and help pick up the honeyholes scattered about. Hink’s
             is quiet today. Usually, there is hustle and bustle but today it’s
             near empty...star light floods from the window onto the checker
             floor of the pastry section. You peak into the diner wing and there
@@ -1289,109 +1666,22 @@ function Tmeet3(props) {
             you in while’s and already you’re causing a stir. Cat dodo, it’s
             time for a snack!
           </p>
-          <p>
-            Elder Ran whistles, and a cleaner dog pads from around the counter
-            to the window corner where Creamface is standing. Cat paws at their
-            shoes then bows its head in a gesture.
-          </p>
-          <p class="indent1">
-            <span class="bold1"> ???: </span> A cleaner dog...I thought they
-            were zero’d...
-          </p>
-
-          <p class="ran">
-            <span class="bold1">Ran: </span>Cat, like my old man Hink, is
-            considered a national treasure. He’s 300 cycles old and still has
-            gusto
-          </p>
-          <p>
-            Figures the codger would work a sales pitch in somewhere... For all
-            the hustling maneuvers elder Ran tells the truth, well mostly.
-          </p>
-          <p class="indent1">
-            <span class="bold1"> ???: </span> Before my grandparents were born,
-            dogs were genetically manufactured to serve as man’s best friend AND
-            service. There were actor dogs, guard dogs, guide dogs, circus clown
-            dogs, space engineer dogs, chef dogs, poet dogs, metal band lead
-            singer dogs, art critic dogs- there were even dog dogs!
-          </p>
-          <p>
-            You and Ran both raise your eyebrows. Until now, Creamface barely
-            spoke.
-          </p>
-          <p class="ran">
-            <span class="bold1">Ran: </span> Seems like someone knows their
-            dogs.
-          </p>
-          <p class="indent1">
-            <span class="bold1"> ???: </span> I used to read dog picture-pedias
-            when I was little. I can’t believe I’m seeing one.
-          </p>
-          <p class="ran">
-            <span class="bold1">Ran: </span>Is that so? I wouldn’t have marked
-            you for a dog lover. You see, Cat is waiting for permission. Would
-            you like him to clean you?
-          </p>
-          <p class="indent1">
-            <span class="bold1"> ???: </span>Would I!? Cat, please clean me, if
-            you will
-          </p>
-          <p>
-            {" "}
-            Kneeling in ceremonial fashion before Cat’s nose, creamed head bows
-            toward the canine. With a merry woof, Cat’s pale pink tongue sets to
-            work, extending, licking and cleaning in lightning succession.
-            Before the genetic ban, cleaner dogs were genetically modified to
-            have tongues that could extend to great lengths, purify any surface
-            it touched, and bodies that were able to process any substance, even
-            high grade pollutants. Vanguards of public health, they aided in
-            cleansing toxic zones. Their saliva was even said to cure cancers.
-            In a matter of moments, Cat’s work is finished. The old dog yips to
-            signal completion and scampers happily back to rest in his bedding
-            below the countertop, having had more treats than he was expecting.
-            Creamface rises from his bow. The emerald suit that was stained is
-            now spotless. In fact it seems to shine with a minty luster.
-            Statuesque, as if the suit was carved on them, you notice the
-            chiseled and robust features of your new acquaintance. They turn
-            toward you, jade iris eyes, a kind smile, face carved by the
-            goddesses themselves and all.
-          </p>
-          <p class="indent1">
-            <span class="bold1"> ???: </span>Uhhh, is there something still on
-            my face?
-          </p>
-          <p>You feel the warmth of your cheeks flushed.</p>
         </div>
-        <p className="apples">
-          <Link to="/number">
-            <a className="textlink">No, I was admiring the view...</a>
+        <div className="next2">
+          <Link to="tmeet4">
+            <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
-        </p>
-        <p className="oranges">
-          <Link to="/pawwork">
-            <a className="textlink">I'm amazed at Cat's paw work!</a>
-          </Link>
-        </p>
-      </div>
+        </div>
+      </div>{" "}
     </div>
   );
 }
 
-function Gmeet3(props) {
+function Gmeet7(props) {
   return (
     <div className="sunrise">
       <div className="smalldialogue">
         <div className="dialogue">
-          <p>
-            Before you can claim your wafelrol, you hear a short and loud beep.
-            Standing in front of the hot cake shop is a waifish woman with short
-            parted hair and a demure expression on her face- she holds out a
-            cashiers pad in one hand toward the stranger.
-          </p>
-          <p class="rosha">
-            <span class="bold1">Rosha: </span> You forgot to sign your key
-            receipt Special Agent Sculi.
-          </p>
           <p class="indent1">
             <span class="bold1">???: </span> Ahaha- And I almost left too! Well,
             turns out our little accident here was a happy one.
@@ -1455,7 +1745,7 @@ function Business(props) {
           </p>
         </div>
         <div className="next2">
-          <Link to="gmeet4">
+          <Link to="gmeet8">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -1464,10 +1754,10 @@ function Business(props) {
   );
 }
 
-function Gmeet4(props) {
+function Gmeet8(props) {
   return (
     <div className="sunrise">
-      <div className="bigtext">
+      <div className="smalltext">
         <div className="maintext">
           <p>
             Gale in one fluid motion, bounces against one of Rosha's shop
@@ -1485,23 +1775,9 @@ function Gmeet4(props) {
             Gale hands you a rol with a pink napkin. Your eyes glimmer at the
             sight. You bid them farwell with a shy smile.
           </p>
-          <p class="gale">
-            <span class="bold1">Gale: </span> See you around I hope.
-          </p>
-          <p>
-            Gale beaming, nods, turns, and walks a couple steps forward. With a
-            flashy motion, an alloy disc drops from out of Gale's trench coat's
-            left sleeve and into their hand. Gale drops the disc and kicks it.
-            The disc expands and hovers. They hop on and begin ascending above
-            the buildings with Hru following in tow. You hear Gale faintly in
-            the distance.
-          </p>
-          <p className="gale">
-            <span className="bold1">Gale:</span> I've got the worst luck Hru...
-          </p>
         </div>
         <div className="next2">
-          <Link to="roshas1">
+          <Link to="gmeet9">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -1513,32 +1789,17 @@ function Gmeet4(props) {
 function Roshas2(props) {
   return (
     <div className="sunrise">
-      <div className="bird">
-        <div className="birdsong">...grumble...</div>
+      <div className="crash">
+        <div className="noise">...grumble...</div>
         <div className="text4">
           <p className="rosha">
             <span className="bold1">Rosha:</span> I know that face, ha! Come in{" "}
             {props.name}. I'll get you fixed up with some more rols.
           </p>
           <p>You walk into the bakery with Rosha</p>
-          <p className="rosha">
-            <span className="bold1">Rosha:</span> Gale there works for the civic
-            enterprise. I got a rush order for some visiting dignitary from
-            South Wards branch officer right before I opened. Almost said no to
-            the government, ha! Lucky for them, Gale is incredibly persuasive.
-            I'm pretty sure that one can convince day its night.
-          </p>
-          <p>
-            You converse with Rosha at length over Angra tea while she kneads
-            and works on a fresh set of rols. Her partner Mik, assistant
-            siblings Camas and Shrum's content shuffles and laughter punctuate
-            the back kitchen ongoings. After some time, you bid Rosha farewell,
-            a bag of fresh rols in hand- this time you walk back the way you
-            came.
-          </p>
         </div>
         <div className="goright">
-          <Link to="redhare1">
+          <Link to="roshas3">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -1601,15 +1862,15 @@ export function App() {
           <Route path={"/tmeet3"} exact={true}>
             <Tmeet3 name={name}></Tmeet3>
           </Route>
-          <Route path={"/gmeet3"} exact={true}>
-            <Gmeet3 name={name}></Gmeet3>
+          <Route path={"/gmeet7"} exact={true}>
+            <Gmeet7 name={name}></Gmeet7>
           </Route>
           <Route path={"/business"} exact={true}>
             <Business name={name}></Business>
           </Route>
 
-          <Route path={"/gmeet4"} exact={true}>
-            <Gmeet4 name={name}></Gmeet4>
+          <Route path={"/gmeet8"} exact={true}>
+            <Gmeet8 name={name}></Gmeet8>
           </Route>
 
           <Route path={"/roshas2"} exact={true}>
@@ -1624,8 +1885,12 @@ export function App() {
             <N6 name={name}></N6>
           </Route>
 
-          <Route path={"/ot4"} exact={true}>
-            <OT4 name={name}></OT4>
+          <Route path={"/ot5"} exact={true}>
+            <OT5 name={name}></OT5>
+          </Route>
+
+          <Route path={"/party4"} exact={true}>
+            <Party4 name={name}></Party4>
           </Route>
         </Switch>
       </div>
