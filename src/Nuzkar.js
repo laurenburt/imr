@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Media, Player, controls } from "react-media-player";
 import ReactDOM, { render } from "react-dom";
 import "./App.css";
 import { App, Page } from "./App";
@@ -2430,12 +2429,12 @@ export var pages2 = [
             </Link>
           </div> */}
           <div className="apples">
-            <Link to="/findgale">
+            <Link to="/findgale1">
               <a className="textlink2">Find Gale.</a>
             </Link>
           </div>
           <div className="oranges">
-            <Link to="/findem">
+            <Link to="/findem1">
               <a className="textlink2">Find Em.</a>
             </Link>
           </div>

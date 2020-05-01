@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Media, Player, controls } from "react-media-player";
 import ReactDOM from "react-dom";
 import "./App.css";
 import { pages2 } from "./Nuzkar";
+import { pages3 } from "./Den";
 // import { Unrolled } from "./Nuzkar";
 import { N6 } from "./Nuzkar";
 import { OT5 } from "./Nuzkar";
 import { Party4 } from "./Nuzkar";
-const { PlayPause, MuteUnmute } = controls;
 
 var pages = [
   //title
@@ -1364,7 +1363,7 @@ var pages = [
     links: [],
   },
   // functions
-].concat(pages2);
+].concat(pages2, pages3);
 export function Page(props) {
   return (
     <div className="page">
@@ -1374,24 +1373,6 @@ export function Page(props) {
       ))}
     </div>
   );
-}
-
-class MediaPlayer extends Component {
-  render() {
-    return (
-      <Media>
-        <div className="media">
-          <div className="media-player">
-            <Player src="https://www.youtube.com/watch?v=RZ8y37jMX4A" />
-          </div>
-          <div className="media-controls">
-            <PlayPause />
-            <MuteUnmute />
-          </div>
-        </div>
-      </Media>
-    );
-  }
 }
 
 // name input/output functions

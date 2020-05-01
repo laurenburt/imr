@@ -1,5 +1,5 @@
 body {
-  font-size: 2rem;
+  font-size: 28px;
   font-family: "Tajawal", sans-serif;
   color: #003366;
   /* z-index: 2; */
@@ -523,8 +523,8 @@ input[type="image"] {
 /* home page background */
 
 .home {
-  width: 100wh;
-  height: 100vh;
+  /* width: 100wh;
+  height: 100vh; */
   background: radial-gradient(#3b6d7f, #c3efff, #347f7e, #16637f, #234f7f);
   background-size: 400% 400%;
   -webkit-animation: Gradient 20s ease infinite;
