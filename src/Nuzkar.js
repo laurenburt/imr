@@ -73,7 +73,7 @@ export var pages2 = [
     path: "/redhare3",
     body: (
       <div className="sunset">
-        <div className="smalltext">
+        <div className="bigtext">
           <div className="maintext">
             <p>
               You sit at the window side of the train car, gazing at the
@@ -250,8 +250,8 @@ export var pages2 = [
             </p>
             <p>
               Strange, you wonder why the room is bathed in warm orange light-
+              until you draw closer to the restroom window.
             </p>
-            <p>until you draw closer to the restroom window.</p>
             <p>
               Ascending en masse, hundreds of the lustrous phoenix herons rise
               from the ravine along the train path, their flame tails coloring
@@ -260,11 +260,8 @@ export var pages2 = [
             </p>
             <p>
               You watch for what seems like an hour until the last phoenix heron
-              trails into the distance.
-            </p>
-            <p>
-              The last time you watched the herons, you were with Em - how
-              exactly did you meet?
+              trails into the distance. The last time you watched the herons,
+              you were with Em - how exactly did you meet?
             </p>
             <p>Your reminiscence takes you back...</p>
 
@@ -289,11 +286,8 @@ export var pages2 = [
           <div className="maintext">
             <p>
               You enter the caboose and hurry to the balcony, your hands on the
-              rail, hand on your travelers cap.
-            </p>
-            <p>
-              A rush of gentle heat covers you as you hear what sounds like
-              thousands of fans.
+              rail, hand on your travelers cap. A rush of gentle heat covers you
+              as you hear what sounds like thousands of fans.
             </p>
             <p>
               Ascending en masse, hundreds of the lustrous phoenix herons rise
@@ -303,11 +297,8 @@ export var pages2 = [
             </p>
             <p>
               You watch for what seems like an hour until the last phoenix heron
-              trails into the distance.
-            </p>
-            <p>
-              The last time you watched the herons, you were with Em - how
-              exactly did you meet?
+              trails into the distance. The last time you watched the herons,
+              you were with Em - how exactly did you meet?
             </p>
             <p>Your reminiscence takes you back...</p>
 
@@ -589,7 +580,7 @@ export var pages2 = [
             </Link>
           </div>
           <div className="right">
-            <Link to="/backtowork">
+            <Link to="/backtowork1">
               <a className="textlink2"> Get back to work</a>
             </Link>
           </div>
@@ -680,7 +671,7 @@ export var pages2 = [
     links: [],
   },
   {
-    path: "/backtowork",
+    path: "/backtowork1",
     body: (
       <div className="flashbackground">
         <div className="smalltext">
@@ -692,6 +683,25 @@ export var pages2 = [
             </p>
             <p>Em flashes a wicked smile.</p>
             <p>You immediately regret being so stingy-</p>
+          </div>
+
+          <div className="next2">
+            <Link to="/backtowork2">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/backtowork2",
+    body: (
+      <div className="flashbackground">
+        <div className="smalltext">
+          <div className="maintext">
             <p>How could you refuse this beautiful person!?</p>
             <p>
               {" "}
@@ -1340,15 +1350,6 @@ export var pages2 = [
               <span class="bold1">Hru:</span> Report finished. Tch. Sure thing
               boss.
             </p>
-            <p>
-              Your eyelids grow heavy, and you can barely stand. Your body is
-              too heavy.
-            </p>
-            <p>
-              Sleep. That's right, sleep. Maybe you've been asleep this whole
-              time on The Red Hare? It has to be that. The last thing you see
-              before your eyes close totally, is Gale's face, scornful, sad.
-            </p>
           </div>
           <div className="next2">
             <Link to="/ref2">
@@ -1367,24 +1368,14 @@ export var pages2 = [
       <div className="sunset">
         <div className="smalltext">
           <div className="maintext">
-            <p>Oh right...that Galedream. And now this nightmare.</p>
             <p>
-              It's the Nuzkari rehabilitation doctor, Aiz. He's been seeing you
-              every week since you've been in rehab after your arrest. After
-              being found guilty, you were ordered to do a 2 year house
-              arrest...you never did make it to see Em. After the events of that
-              night with Gale, you never will. Thankfully, Rosha still visits
-              you with a batch of Wafelrols from time to time. It's the only
-              thing you can look forward to since being let go from the Expo
-              project.
-            </p>
-            <p className="hru">
-              <span class="bold1">Aiz:</span> Well, how about we start where we
-              left? Tell me about И?
+              Your eyelids grow heavy, and you can barely stand. Your body is
+              too heavy.
             </p>
             <p>
-              You look out your window- at least you got to see the phoenix
-              herons migration...
+              Sleep. That's right, sleep. Maybe you've been asleep this whole
+              time on The Red Hare? It has to be that. The last thing you see
+              before your eyes close totally, is Gale's face, scornful, sad.
             </p>
           </div>
           <div className="next2">
@@ -1400,6 +1391,42 @@ export var pages2 = [
 
   {
     path: "/ref3",
+    body: (
+      <div className="sunset">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              Oh right...that Galedream again. And now this nightmare. It's the
+              Nuzkari rehabilitation doctor, Aiz. He's been seeing you every
+              week since you've been in rehab after your arrest. After being
+              found guilty, you were ordered to do a 2 year house arrest...you
+              never did make it to see Em. After the events of that night with
+              Gale, you never will. Thankfully, Rosha still visits you with a
+              batch of Wafelrols from time to time. It's the only thing you can
+              look forward to since being let go from the Expo project.
+            </p>
+            <p className="hru">
+              <span class="bold1">Aiz:</span> Well, how about we start where we
+              left? Tell me about И?
+            </p>
+            <p>
+              You look out your window- at least you got to see the phoenix
+              herons migration...
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="/ref4">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/ref4",
     body: (
       <div className="theend">
         <div className="wrapper2">
@@ -1484,6 +1511,24 @@ export var pages2 = [
               planet. Around you , Nuzkari couples on floating discs watch, dine
               together, in this light and heights.
             </p>
+          </div>
+          <div className="next2">
+            <Link to="/ot2.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/ot2.5",
+    body: (
+      <div className="sunset">
+        <div className="smalltext">
+          <div className="maintext">
             <p>
               You make out the phoenix herons' new nesting grounds below, their
               bodies shining with the city adorned blue tiled roofs. You see all
@@ -1693,6 +1738,24 @@ export var pages2 = [
               face of yours is starting to get on my nerves. I'll have you know
               I worked very hard to barter down this geis.
             </p>
+          </div>
+          <div className="next2">
+            <Link to="/ot8.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/ot8.5",
+    body: (
+      <div className="sunset">
+        <div className="smalltext">
+          <div className="maintext">
             <p>
               Em grins. With a dramatic bow, Em steps to the side to make way
               for you.
@@ -1755,7 +1818,7 @@ export var pages2 = [
             <p>Em grabs your hand and you cross the skybridge together.</p>
           </div>
           <div className="next2">
-            <Link to="/party2">
+            <Link to="/party1">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -1764,12 +1827,11 @@ export var pages2 = [
     ),
     links: [],
   },
-
   {
-    path: "/party2",
+    path: "/party1",
     body: (
       <div className="sunset">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               Em's home in contrast to the ancient floating earth it sat on, was
@@ -1780,17 +1842,23 @@ export var pages2 = [
               guests grilled food on a patio and swam in the intinity pool. This
               was what you expected of Em- a house flaming indeed!
             </p>
-            <p>
-              Gem, rune, and heat based magecraft powers Nuzkar, a region
-              blessed with rich mineral deposits and dense ether in the air- it
-              is only here that automatons and Obsidianites could function to
-              maintain the standards of living Nuzkari enjoy. While more machina
-              and familiars exist in other regions like Shale, Astris and
-              Denthalassa- the summoning and alchemic processes stem from modern
-              magecraft theory. How the Obsidianites were created eras ago, is
-              still a mystery. Your Expo research is paying off you think- but
-              what you see beyond the gate, is entirely new to you.
-            </p>
+          </div>
+          <div className="next2">
+            <Link to="/party2">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+  {
+    path: "/party2",
+    body: (
+      <div className="sunset">
+        <div className="smalltext">
+          <div className="maintext">
             <p>
               You stand on the skybridge connecting the Nuzkar plateau and Em's
               domain in awe. After a moment, you notice Em keenly smiles at you.
@@ -1824,7 +1892,7 @@ export var pages2 = [
     path: "/party3",
     body: (
       <div className="sunset">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               The rune, heeding Em's call, glows a sea green hue. You're so
@@ -1845,6 +1913,24 @@ export var pages2 = [
               view? I know you've been to the heights but this is something else
               too, innit?
             </p>
+          </div>
+          <div className="next2">
+            <Link to="/party3.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/party3.5",
+    body: (
+      <div className="sunset">
+        <div className="smalltext">
+          <div className="maintext">
             <p>
               Beyond the land barge, you see the vast reaches of land you had
               traveled through via train. The earth below while devoid of plant
@@ -1855,11 +1941,41 @@ export var pages2 = [
             <p className="em">
               <span class="bold1">Em:</span> There is so much star ore deposits
               here, I decided it might be best to try and survey the land.
-              There's also...
             </p>
           </div>
           <div className="next2">
             <Link to="/party4">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/party4.5",
+    body: (
+      <div className="sunset">
+        <div className="smalltext">
+          <div className="maintext">
+            <p className="indent1">
+              <span class="bold1">???:</span> Ember! We've been looking all over
+              for you! Drya tried activating the warming rune in the sauna and
+              it's going nuts! We're so sorry, can you help?
+            </p>
+            <p>Em looks at you apologetically.</p>
+            <p className="em">
+              <span class="bold1">Em:</span> I hate to leave you like this
+              without a proper tour. Please, make yourself comfortable. My geis
+              is your geis. Don't gamble with Shiar if you meet her, make sure
+              not to talk about family around Dain- his mother was spirited
+              recently. And Omri will flirt! I'll be back in a moment.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="/party5">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -2287,7 +2403,6 @@ export var pages2 = [
               <span class="bold1">Gale:</span> Long time no see, eh? Nice work,
               Em! Don't worry, those cads won't get very far- at all.
             </p>
-            <p>Gale tosses a pouch at Em, whom catches it with a finger.</p>
           </div>
           <div className="next2">
             <Link to="/cage8b">
@@ -2306,12 +2421,31 @@ export var pages2 = [
       <div className="sunset">
         <div className="smalltext">
           <div className="maintext">
+            <p>Gale tosses a pouch at Em, whom catches it with a finger.</p>
+
             <p>
               As investigators pour into Em's home and search for evidence- you,
               Em, Hru, and Gale gather around Em's deck table and sip warm
               cider. Em, ever the consummate conversationalist, tells a tale.
             </p>
+          </div>
+          <div className="next2">
+            <Link to="/cage8.5b">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
 
+  {
+    path: "/cage8.5b",
+    body: (
+      <div className="sunset">
+        <div className="smalltext">
+          <div className="maintext">
             <p className="em">
               <span class="bold1">Em:</span> A while before I met you, I started
               taking on side hustles to help pay for my music lessons. One of
@@ -2712,6 +2846,7 @@ export function Party4(props) {
     <div className="sunset">
       <div className="smalltext">
         <div className="maintext">
+          <p>Em cuts themself short.</p>
           <p class="em">
             <span class="bold1">Em:</span> {props.name} - I am really glad you
             made it. Tonight wouldn't be the same at all without you. I -
@@ -2720,23 +2855,9 @@ export function Party4(props) {
             Before Em could finish, a couple guests from the party run toward
             Em.
           </p>
-
-          <p className="indent1">
-            <span class="bold1">???:</span> Ember! We've been looking all over
-            for you! Drya tried activating the warming rune in the sauna and
-            it's going nuts! We're so sorry, can you help?
-          </p>
-          <p>Em looks at you apologetically.</p>
-          <p className="em">
-            <span class="bold1">Em:</span> I hate to leave you like this without
-            a proper tour. Please, make yourself comfortable. My geis is your
-            geis. Don't gamble with Shiar if you meet her, make sure not to talk
-            about family around Dain- his mother was spirited recently. And Omri
-            will flirt! I'll be back in a moment.
-          </p>
         </div>
         <div className="next2">
-          <Link to="/party5">
+          <Link to="/party4.5">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>

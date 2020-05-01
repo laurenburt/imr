@@ -460,14 +460,6 @@ var pages = [
               but when the ærth zone’s first biotic plant shelters began to
               root, it meant the advent of transforming modular homes.
             </p>
-            <p>
-              Your favorite music begins to play as water gushes from the
-              ceiling. After a much needed shower, you declare{" "}
-              <i>-wardrobe if you will-</i> and what was once a bathroom area
-              begins to shift into a modest sized closet space. Layers! The
-              phoenix herons heralded layer season. At last- you’ve been waiting
-              what seems like eons to don your favorite jacket.
-            </p>
           </div>
 
           <div className="next2">
@@ -488,23 +480,12 @@ var pages = [
         <div className="smalltext">
           <div className="maintext">
             <p>
-              {" "}
-              You’re afoot. The walk to Hink’s diner is pleasant, it’s
-              noticeably chilly outside. Vapors from your breath uncoil as you
-              walk along the canal pathway. You're lucky to have found a room in
-              the south ward. Your complex lays two blocks from the entrance to
-              Naer park, a sprawling centrefold of a biome integrated into Shale
-              city. While most of the city’s building structures are living
-              innovations, deep within Naer park residents live in the canopy of
-              the great Naer trees, stewards of the local life forms.
-            </p>
-            <p>
-              You glance away from the synaptic reader in your eye lens to take
-              in the flower gardens, fields and Naer lake. The phoenix herons’
-              amber nests floating atop the marsh at the edge of the lake would
-              glow in the evening. With the flight of the pheorons, the nests
-              were now a feast for urchin otters, sholes, umbran grits, and Naer
-              vixens.
+              Your favorite music begins to play as water gushes from the
+              ceiling. After a much needed shower, you declare{" "}
+              <i>-wardrobe if you will-</i> and what was once a bathroom area
+              begins to shift into a modest sized closet space. Layers! The
+              phoenix herons heralded layer season. At last- you’ve been waiting
+              what seems like eons to don your favorite jacket.
             </p>
           </div>
 
@@ -523,6 +504,62 @@ var pages = [
     path: "/honeyholes3",
     body: (
       <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              You’re afoot. The walk to Hink’s diner is pleasant, it’s
+              noticeably chilly outside. Vapors from your breath uncoil as you
+              walk along the canal pathway. You're lucky to have found a room in
+              the south ward. Your complex lays two blocks from the entrance to
+              Naer park, a sprawling centrefold of a biome integrated into Shale
+              city. While most of the city’s building structures are living
+              innovations, deep within Naer park residents live in the canopy of
+              the great Naer trees, stewards of the local life forms.
+            </p>
+          </div>
+
+          <div className="next2">
+            <Link to="honeyholes4">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/honeyholes4",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              You glance away from the synaptic reader in your eye lens to take
+              in the flower gardens, fields and Naer lake. The phoenix herons’
+              amber nests floating atop the marsh at the edge of the lake would
+              glow in the evening. With the flight of the pheorons, the nests
+              were now a feast for urchin otters, sholes, umbran grits, and Naer
+              vixens.
+            </p>
+          </div>
+
+          <div className="next2">
+            <Link to="honeyholes5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/honeyholes5",
+    body: (
+      <div className="sunrise">
         <div className="crash">
           <div className="noise">...grumble...</div>
           <div className="text4">
@@ -536,7 +573,7 @@ var pages = [
             </p>
           </div>
           <div className="goright">
-            <Link to="honeyholes4">
+            <Link to="honeyholes6">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -547,7 +584,7 @@ var pages = [
   },
 
   {
-    path: "/honeyholes4",
+    path: "/honeyholes6",
     body: (
       <div className="sunrise">
         <div className="smalltext">
@@ -892,16 +929,6 @@ var pages = [
               beginning of the neighborhood's enterprises. As you round the
               corner of a building you duck under a low hanging lattice system.
             </p>
-            <p>
-              You almost collide into a young Kobo pulling a fruit merchant's
-              produce.
-            </p>
-            <p>
-              As you weave your way through the morning commotion you almost
-              nick yourself running through circus row, an alley famous for its
-              resident performers, their animal compatriots, self-avowed freaks
-              and roving mystics. The smell of spices and citrus entice you.
-            </p>
           </div>
           <div className="next2">
             <Link to="wafelrols2">
@@ -916,6 +943,34 @@ var pages = [
 
   {
     path: "/wafelrols2",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              You almost collide into a young Kobo pulling a fruit merchant's
+              produce.
+            </p>
+            <p>
+              As you weave your way through the morning commotion you almost
+              nick yourself running through circus row, an alley famous for its
+              resident performers, their animal compatriots, self-avowed freaks
+              and roving mystics. The smell of spices and citrus entice you.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="wafelrols3">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/wafelrols3",
     body: (
       <div className="sunrise">
         <div className="smalltext">
@@ -1118,16 +1173,6 @@ var pages = [
               short on day to enjoy your company. You still want a wafelrol
               right?
             </p>
-            <p>
-              The mysterious figure before you dusts their bowler cap from the
-              street floor before flicking it neatly on their head like a
-              trickster's coin bet flip against the gods. It registers that they
-              are wearing a long platinum grey blue ombre coat-
-            </p>
-            <p>
-              At the mention of wafelrols, you wonder where the Rosha boxes you
-              almost crashed into are...Stranger Danger whistles
-            </p>
           </div>
           <div className="next2">
             <Link to="gmeet4">
@@ -1142,6 +1187,34 @@ var pages = [
 
   {
     path: "/gmeet4",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              The mysterious figure before you dusts their bowler cap from the
+              street floor before flicking it neatly on their head like a
+              trickster's coin bet flip against the gods. It registers that they
+              are wearing a long platinum grey blue ombre coat-
+            </p>
+            <p>
+              At the mention of wafelrols, you wonder where the Rosha boxes you
+              almost crashed into are...Stranger Danger whistles
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="gmeet5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/gmeet5",
     body: (
       <div className="sunrise">
         <div className="smalltext">
@@ -1165,33 +1238,6 @@ var pages = [
             </p>
           </div>
           <div className="next2">
-            <Link to="gmeet5">
-              <img src="cleararrow.png" width="100" height="125"></img>
-            </Link>
-          </div>
-        </div>
-      </div>
-    ),
-    links: [],
-  },
-
-  {
-    path: "/gmeet5",
-    body: (
-      <div className="sunrise">
-        <div className="smalltext">
-          <div className="maintext">
-            <p>
-              {" "}
-              You recall your mid level arcstories. Vrnyan technology though
-              ancient, is highly advanced- many of the modern innovations made
-              throughout the world stem from the inventiveness of the Vrynyan's.
-              Whatever became of their civilization, their legacy continued in
-              forms like the automoton before you whose pattern design, while
-              supremely functional, also looked rather cute...
-            </p>
-          </div>
-          <div className="next2">
             <Link to="gmeet6">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
@@ -1209,14 +1255,13 @@ var pages = [
         <div className="smalltext">
           <div className="maintext">
             <p>
-              Before you can claim your wafelrol, you hear a short and loud
-              beep. Standing in front of the hot cake shop is a waifish woman
-              with short parted hair and a demure expression on her face- she
-              holds out a cashiers pad in one hand toward the stranger.
-            </p>
-            <p class="rosha">
-              <span class="bold1">Rosha: </span> Don't forgot to sign your key
-              receipt.
+              {" "}
+              You recall your mid level arcstories. Vrnyan technology though
+              ancient, is highly advanced- many of the modern innovations made
+              throughout the world stem from the inventiveness of the Vrynyan's.
+              Whatever became of their civilization, their legacy continued in
+              forms like the automoton before you whose pattern design, while
+              supremely functional, also looked rather cute...
             </p>
           </div>
           <div className="next2">
@@ -1231,7 +1276,35 @@ var pages = [
   },
 
   {
-    path: "/wink",
+    path: "/gmeet7",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              Before you can claim your wafelrol, you hear a short and loud
+              beep. Standing in front of the hot cake shop is a waifish woman
+              with short parted hair and a demure expression on her face- she
+              holds out a cashiers pad in one hand toward the stranger.
+            </p>
+            <p class="rosha">
+              <span class="bold1">Rosha: </span> Don't forgot to sign your key
+              receipt.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="gmeet8">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/wink1",
     body: (
       <div className="sunrise">
         <div className="smalltext">
@@ -1242,6 +1315,24 @@ var pages = [
               and subtly shifts. They turn their head, body slightly stiffened,
               and cough.
             </p>
+          </div>
+          <div className="next2">
+            <Link to="wink2">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/wink2",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
             <p className="rosha">
               <span className="bold1">Rosha:</span> You alright Gale? I have
               some lozenges in the shop if you like
@@ -1259,7 +1350,34 @@ var pages = [
             </p>
           </div>
           <div className="next2">
-            <Link to="gmeet8">
+            <Link to="gmeet9">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/business2",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              Rosha looks at you warmly. Hru hovers between you, Rosha, and
+              Gale. Ignoring you and Rosha, Hru quietly speaks to Gale.
+            </p>
+            <p className="hru">
+              <span className="bold1">Hru:</span> Hrmm, Hrmm. CO- I received a
+              message from SW task force. The entire team is starving. We will
+              be placed on filing duty if we don't arrive back to HQ soon.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="gmeet9">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -1269,7 +1387,7 @@ var pages = [
     links: [],
   },
   {
-    path: "/gmeet9",
+    path: "/gmeet10",
     body: (
       <div className="sunrise">
         <div className="smalltext">
@@ -1658,7 +1776,7 @@ function Tmeet3(props) {
   );
 }
 
-function Gmeet7(props) {
+function Gmeet8(props) {
   return (
     <div className="sunrise">
       <div className="smalldialogue">
@@ -1680,13 +1798,13 @@ function Gmeet7(props) {
           </p>
         </div>
         <p className="apples">
-          <Link to="/wink">
+          <Link to="/wink1">
             <a className="textlink">Give your name with a wink!</a>
           </Link>
         </p>
 
         <p className="oranges">
-          <Link to="/business">
+          <Link to="/business1">
             <a className="textlink">State your name and business</a>
           </Link>
         </p>
@@ -1695,7 +1813,7 @@ function Gmeet7(props) {
   );
 }
 
-function Business(props) {
+function Business1(props) {
   return (
     <div className="sunrise">
       <div className="smalltext">
@@ -1709,24 +1827,14 @@ function Business(props) {
             in the honorific tense before. It gives you a sense of pride.
           </p>
           <p class="rosha">
-            <span class="bold1">Rosha: </span> {props.name} is a long time
+            <span className="bold1">Rosha: </span> {props.name} is a long time
             regular, in fact one of my first customers when I opened two years
             ago. Most of my pastries won't go out unless I've had the approval
             of my loyal taste testers.
           </p>
-          <p>
-            {" "}
-            Rosha looks at you warmly. Hru hovers between you, Rosha, and Gale.
-            Ignoring you and Rosha, Hru quietly speaks to Gale.
-          </p>
-          <p className="hru">
-            <span className="bold1">Hru:</span> Hrmm, Hrmm. CO- I received a
-            message from SW task force. The entire team is starving. We will be
-            placed on filing duty if we don't arrive back to HQ soon.
-          </p>
         </div>
         <div className="next2">
-          <Link to="gmeet8">
+          <Link to="business2">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -1735,7 +1843,7 @@ function Business(props) {
   );
 }
 
-function Gmeet8(props) {
+function Gmeet9(props) {
   return (
     <div className="sunrise">
       <div className="smalltext">
@@ -1758,7 +1866,7 @@ function Gmeet8(props) {
           </p>
         </div>
         <div className="next2">
-          <Link to="gmeet9">
+          <Link to="gmeet10">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -1843,15 +1951,15 @@ export function App() {
           <Route path={"/tmeet3"} exact={true}>
             <Tmeet3 name={name}></Tmeet3>
           </Route>
-          <Route path={"/gmeet7"} exact={true}>
-            <Gmeet7 name={name}></Gmeet7>
-          </Route>
-          <Route path={"/business"} exact={true}>
-            <Business name={name}></Business>
-          </Route>
-
           <Route path={"/gmeet8"} exact={true}>
             <Gmeet8 name={name}></Gmeet8>
+          </Route>
+          <Route path={"/business1"} exact={true}>
+            <Business1 name={name}></Business1>
+          </Route>
+
+          <Route path={"/gmeet9"} exact={true}>
+            <Gmeet9 name={name}></Gmeet9>
           </Route>
 
           <Route path={"/roshas2"} exact={true}>

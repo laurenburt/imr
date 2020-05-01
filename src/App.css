@@ -1,5 +1,7 @@
 body {
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 1.6em;
+
   font-family: "Tajawal", sans-serif;
   color: #003366;
   /* z-index: 2; */
