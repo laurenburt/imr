@@ -909,6 +909,11 @@ var pages = [
                 <a className="textlink">I'm amazed at Cat's paw work!</a>
               </Link>
             </p>
+            <div className="next2">
+              <Link to="mk1">
+                <img src="cleararrow.png" width="100" height="125"></img>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
