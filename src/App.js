@@ -156,14 +156,12 @@ var pages = [
       <div className="sunrise">
         <div className="smalltext">
           <div className="maintext">
-            Nix as usual, is unfailingly tough and tender. The last time you
-            spoke was before the Expo. The message leaves you awash in a
-            familiar feeling, of an evening Summer wondering about a dreamy
+            Nix is unfailingly tough, yet tender. The message leaves you awash
+            in a familiar feeling, of an evening Summer wondering about a dreamy
             cityscape. Running through the streets with a yell in your chest
             that whatever hardship lie ahead, things would be alright- drifting
-            in Nix’s voice was comfort. While Nix was the last person you want
-            to know about the Expo incident, rather than the torture of
-            embarrassment, you feel solace.
+            in Nix’s voice was comfort. If you could impress them, things could
+            really be looking up.
           </div>
           <div className="next2">
             <Link to="sleep2">
@@ -391,14 +389,12 @@ var pages = [
       <div className="sunrise">
         <div className="smalltext">
           <div className="maintext">
-            Nix as usual, is unfailingly tough and tender. The last time you
-            spoke was before the Expo. The message leaves you awash in a
-            familiar feeling, of an evening Summer wondering about a dreamy
+            Nix is unfailingly tough, yet tender. The message leaves you awash
+            in a familiar feeling, of an evening Summer wondering about a dreamy
             cityscape. Running through the streets with a yell in your chest
             that whatever hardship lie ahead, things would be alright- drifting
-            in Nix’s voice was comfort. While Nix was the last person you want
-            to know about the Expo incident, rather than the torture of
-            embarrassment, you feel solace.
+            in Nix’s voice was comfort. If you could impress them, things could
+            really be looking up.
           </div>
           <div className="next2">
             <Link to="breakfast">
@@ -856,12 +852,12 @@ var pages = [
       <div className="sunrise">
         <div className="smalltext">
           <div className="maintext">
-            Kneeling in ceremonial fashion before Cat’s nose, creamed head bows
+            Kneeling in ceremonial fashion before Cat’s nose, Creamface bows
             toward the canine. With a merry woof, Cat’s pale pink tongue sets to
             work, extending, licking and cleaning in lightning succession.
-            Before the genetic ban, cleaner dogs were genetically modified to
-            have tongues that could extend to great lengths, purify any surface
-            it touched, and bodies that were able to process any substance, even
+            Before the genos ban, cleaner dogs were genetically modified to have
+            tongues that could extend to great lengths, purify any surface it
+            touched, and bodies that were able to process any substance, even
             high grade pollutants. Vanguards of public health, they aided in
             cleansing toxic zones. Their saliva was even said to cure cancers.
             In a matter of moments, Cat’s work is finished.
@@ -897,21 +893,140 @@ var pages = [
               <span class="bold1"> ???: </span>Uhhh, is there something still on
               my face?
             </p>
-            <p>You feel the warmth of your cheeks flushed.</p>
+            <p>You feel the warmth of your cheeks flush.</p>
 
             <p className="apples">
-              <Link to="/number">
+              <Link to="/tmeet10a">
                 <a className="textlink">No, I was admiring the view...</a>
               </Link>
             </p>
             <p className="oranges">
-              <Link to="/pawwork">
+              <Link to="/tmeet10b">
                 <a className="textlink">I'm amazed at Cat's paw work!</a>
               </Link>
             </p>
-            <div className="next2">
-              <Link to="mk1">
-                <img src="cleararrow.png" width="100" height="125"></img>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet10a",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              You drop a power move, your mind racing for a cool thing to say.
+              The person's eyes glint and smirks.{" "}
+            </p>
+            <p class="indent1">
+              <span class="bold1"> ???:</span> That's a line from the show 'P.O.
+              Boxer' isn't it?
+            </p>
+            <p>
+              Bashful, you confirm that it was. Not many people appreciate or
+              recognize your occasional obscure references. When faced with
+              someone who does, you're somehow more embarassed.
+            </p>
+            <p>
+              You take a step back to collect yourself and notice a card on the
+              floor wedged between your shoe and the floor. You pick it up. Upon
+              examination, you realize-
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="tmeet11">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet10b",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              You say the first thing you can think of. You're feeling flushed-
+              it's unusual to feel like a stranger to your own body- What about
+              this person is making you feel this way?
+            </p>
+            <p>
+              You notice a card on the floor next to Creamface and pick it up.
+              Upon examination, you realize-
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="tmeet11">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet11",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              You hold the business card in your hand, feeling the smooth
+              surface. This logo of a rising anchor is unmistakable. The vivre
+              papyrus, a rare material often used to certify professionals
+              verifies that it is a genuine Anchor Studios business card, a card
+              you hope to earn as a newly hired contractor with the firm.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="tmeet12">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet12",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              You read the name Terran Kesstler. Terran... The person standing
+              before you...
+            </p>
+            <p>
+              You show the business card to the person you designated as
+              Creamface.
+            </p>
+            <p class="terran">
+              <span class="bold1"> Terran:</span> Yes, that's me! You're welcome
+              to keep it, as a keep sake.
+            </p>
+            <p>
+              Terran smiles at you, and just as they make for the exit you blurt
+              out:
+            </p>
+            <div className="apples">
+              <Link to="/tmeet13">
+                <a className="textlink">
+                  I look forward to working with you soon!
+                </a>
               </Link>
             </div>
           </div>
@@ -921,6 +1036,176 @@ var pages = [
     links: [],
   },
 
+  {
+    path: "/tmeet13",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p class="terran">
+              <span class="bold1"> Terran:</span> Excuse me- what?
+            </p>
+            <p>
+              You explain to Terran that you are one of the designers referred
+              to Anchor Studios. You met Nix at the first Expo site visit for
+              the contracted partners in Astris a while ago. Nix left a message
+              inviting you to Anchor Studios HQ in Denthalassa. Over your
+              explanation you begin to notice Terran growing noticeably
+              agitated. Did you say something to offend them? You say to Terran
+              that you are looking forward to working together and making the
+              Expo a resounding success! However, your enthusiasm is returned
+              with silence. Terran looks displeased.
+            </p>
+
+            <p class="terran">
+              <span class="bold1"> Terran:</span> So you're the new hire...
+              Follow me.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="tmeet14">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet14",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              You hesitate as Terran leaves Hink's- you collect yourself and go
+              after them. Terran leads you to an empty alley on the side of
+              Hink's. Terran closes in on you, their head within inches of
+              yours, those jade eyes now a dragons flame.
+            </p>
+            <p class="terran">
+              <span class="bold1"> Terran:</span> Whatever strings you pulled to
+              get in with the boss, I hope you're prepared. If you're dead
+              weight, you will be dropped! What exactly did you do to earn title
+              designer?
+            </p>
+            <p>You try to explain yourself but Terran interjects.</p>
+            <p class="terran">
+              <span class="bold1"> Terran:</span> Before Terran can get another
+              word in, a voice from the sidewalk calls you out.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="tmeet15">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet16",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>A child's voice calls toward Remmy.</p>
+            <p class="rhea">
+              <span class="bold1"> Rhea:</span> Daddy!
+            </p>
+            <p>Remmy's smile seemed to come from the depth of his being.</p>{" "}
+            <p class="remmy">
+              <span class="bold1"> Remmy:</span> Just a moment business
+              princess! Well, looks like my boss needs help setting her bicorn
+              tricycle. Take care, and do your best!
+            </p>
+            <p>
+              Remmy leaves you and Terran to help a struggling Boss Princess.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="tmeet17">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet17",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              Terran seems deep in thought. Their face seems to have softened.
+            </p>
+            <p class="terran">
+              <span class="bold1"> Terran:</span> Hmm, it seems like you aren't
+              totally useless after all. Just a heads up- the Boss probably
+              neglected to tell you what island Seed estates is on. If you
+              accept the invitation, make sure to board a sub to terminal 4 and
+              take a skidder from there to terminal 1, Eha island.
+            </p>
+            <p>
+              Terran moves toward a hoverbike stationed at a charging bay on the
+              corner of Hink's.
+            </p>
+            <p class="terran">
+              <span class="bold1"> Terran:</span> I look forward to seeing what
+              Boss see's in you. Till then- later!
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="tmeet18">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/tmeet18",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              With that, your enigmatic and acerbic future coworker flies off.
+              You take Terran's useful information as a sign that they've
+              somewhat approved of you, if only a little. Still, you know you're
+              on thin ice. Maybe you would have felt discouraged if you had
+              worked with a personality like Terran's in the past, but for some
+              reason, you are fired up and even more excited to learn more about
+              Anchor Studios.
+            </p>
+            <p>
+              You go back to Hink's and enjoy a moment with everyone there.
+              Wherever you decide to go from here, you know it will be a while
+              before you return.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="mk1">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
   // t meet 3
 
   //************* WAFELROLS **************
@@ -1526,26 +1811,29 @@ function Check1(props) {
       <div className="bigtext">
         <div className="maintext">
           <p>
-            <span className="bold2">'Morning {props.name}, are you well?'</span>
+            <span className="bold2">
+              'Morning {props.name}, are you well? - This is Nix Aarhion.'
+            </span>
           </p>
           A voice as crisp as fresh crystal linen weathered by years of smokes
-          and long nights poured from the speaker. It was Nix.
+          and long nights poured from the speaker. You can't believe you're
+          listening to a message from THE Nix Aarhion - one of the most
+          successful mage architects of all time.
           <p>
             <span className="bold2">
               {" "}
-              'I heard a little about what went down at the Expo- I hope you’re
-              alright... I called to share some news with you and thought it
-              would be great to do so in person. I know I’ve mentioned to you
-              briefly about my homeland Denthalassa. You were excited to listen
-              to my shieldfish riding stories and took a liking to the seaflower
-              snacks I’d bring to meetings. Rather than telling you more about
-              my home, I thought I’d show you. So how about it? Will you come
-              visit? I’ve reserved a ferry seat for you. The waters here are
-              warm, every block has its own healing pool and there are plenty of
-              beaches to relax in while eating freshly grilled egg pearls.
-              Though it’s business, there’s nothing wrong with mixing in a
-              little pleasure, no? Listen , There’s something else I wa--'Hey
-              boss, the magnus is here to see you-''
+              'We met at the Expo site in Astris, and now my colleague Liv has
+              recommended you to me. I'd like to invite you to join us for a
+              visit at Anchor Studios HQ in Denthalassa. I think you could be a
+              valuable addition to our team. I remember you were excited to
+              listen to my shieldfish riding stories and took a liking to the
+              seaflower snacks I’d bring to meetings. You've never been to Den,
+              right? It's a beautiful place - the waters here are warm, every
+              block has its own healing pool and there are plenty of beaches to
+              relax in while eating freshly grilled egg pearls. Though it’s
+              business, there’s nothing wrong with mixing in a little pleasure,
+              no? Listen , There’s something else I wa--'Hey boss, the magnus is
+              here to see you-''
             </span>
           </p>
           <p>
@@ -1578,26 +1866,29 @@ function Check2(props) {
       <div className="bigtext">
         <div className="maintext">
           <p>
-            <span className="bold2">'Morning {props.name}, are you well?'</span>
+            <span className="bold2">
+              'Morning {props.name}, are you well? - This is Nix Aarhion.'
+            </span>
           </p>
           A voice as crisp as fresh crystal linen weathered by years of smokes
-          and long nights poured from the speaker. It was Nix.
+          and long nights poured from the speaker. You can't believe you're
+          listening to a message from THE Nix Aarhion - one of the most
+          successful mage architects of all time.
           <p>
             <span className="bold2">
               {" "}
-              'I heard a little about what went down at the Expo- I hope you’re
-              alright... I called to share some news with you and thought it
-              would be great to do so in person. I know I’ve mentioned to you
-              briefly about my homeland Denthalassa. You were excited to listen
-              to my shieldfish riding stories and took a liking to the seaflower
-              snacks I’d bring to meetings. Rather than telling you more about
-              my home, I thought I’d show you. So how about it? Will you come
-              visit? I’ve reserved a ferry seat for you. The waters here are
-              warm, every block has its own healing pool and there are plenty of
-              beaches to relax in while eating freshly grilled egg pearls.
-              Though it’s business, there’s nothing wrong with mixing in a
-              little pleasure, no? Listen , There’s something else I wa--'Hey
-              boss, the magnus is here to see you-''
+              'We met at the Expo site in Astris, and now my colleague Liv has
+              recommended you to me. I'd like to invite you to join us for a
+              visit at Anchor Studios HQ in Denthalassa. I think you could be a
+              valuable addition to our team. I remember you were excited to
+              listen to my shieldfish riding stories and took a liking to the
+              seaflower snacks I’d bring to meetings. You've never been to Den,
+              right? It's a beautiful place - the waters here are warm, every
+              block has its own healing pool and there are plenty of beaches to
+              relax in while eating freshly grilled egg pearls. Though it’s
+              business, there’s nothing wrong with mixing in a little pleasure,
+              no? Listen , There’s something else I wa--'Hey boss, the magnus is
+              here to see you-''
             </span>
           </p>
           <p>
@@ -1771,6 +2062,42 @@ function Tmeet3(props) {
         </div>
         <div className="next2">
           <Link to="tmeet4">
+            <img src="cleararrow.png" width="100" height="125"></img>
+          </Link>
+        </div>
+      </div>{" "}
+    </div>
+  );
+}
+
+function Tmeet15(props) {
+  return (
+    <div className="sunrise">
+      <div className="smalltext">
+        <div className="maintext">
+          <p class="remmy">
+            <span class="bold1">Remmy: </span>
+            {props.name}, is that you? It's Remmy!
+          </p>
+          <p>
+            Short, squat and kindly, Remmy arrived right on time. You use
+            Rummy's appearance to your advantage and make an introduction
+            between he and Terran.
+          </p>
+          <p class="remmy">
+            <span class="bold1">Remmy: </span>Please take good care of{" "}
+            {props.name}. Back when I founded my first lens crafting company, I
+            struggled to find an ounce of support. {props.name}'s designs really
+            helped seal the deal with my first pitches. Five years later and
+            I've got my hands full with my business, my sweet angel Phia and my
+            starlight of a daughter Rhea. I used to be something of a shark
+            before those two came into my life. Having something precious to me,
+            something I cannot ever replace, changed the nature of my work. It's
+            important to remember why we do what we do.
+          </p>
+        </div>
+        <div className="next2">
+          <Link to="tmeet16">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -1953,6 +2280,9 @@ export function App() {
 
           <Route path={"/tmeet3"} exact={true}>
             <Tmeet3 name={name}></Tmeet3>
+          </Route>
+          <Route path={"/tmeet15"} exact={true}>
+            <Tmeet15 name={name}></Tmeet15>
           </Route>
           <Route path={"/gmeet8"} exact={true}>
             <Gmeet8 name={name}></Gmeet8>

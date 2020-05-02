@@ -322,7 +322,7 @@ export var pages3 = [
             </p>
             <p>
               You read an article online on Denthalassa while the submarine
-              begins to dock to Terminal 4:
+              begins to dock to terminal 4:
             </p>
             <p>
               Denthalassa is an archipelago of seafaring islands that travels
@@ -1080,6 +1080,24 @@ export var pages3 = [
               THINK THEY ARE MAKING REQUESTS LIKE THIS WITH ONLY A COUPLE WEEKS
               LEFT?
             </p>
+          </div>
+
+          <div className="goright">
+            <Link to="eha14.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+  {
+    path: "/eha14.5",
+    body: (
+      <div className="oceanblue">
+        <div className="smalltext">
+          <div className="maintext">
             <p>
               A bespectacled woman donning a grey black dress suit clatters in
               with a floating orb behind her. 'Hell hath no fury like woman's
@@ -1092,7 +1110,7 @@ export var pages3 = [
             </p>
           </div>
 
-          <div className="goright">
+          <div className="next2">
             <Link to="eha15">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
@@ -1102,7 +1120,6 @@ export var pages3 = [
     ),
     links: [],
   },
-
   {
     path: "/eha15",
     body: (
@@ -1147,6 +1164,11 @@ export var pages3 = [
       <div className="oceanblue">
         <div className="smalltext">
           <div className="maintext">
+            <p class="nix">
+              <span class="bold1">Nix:</span> Settle down, everyone. It's enough
+              that we have a fickle client. V, summon Pith. I've received an
+              update on the rune adjustments.
+            </p>
             <p>
               Once everyone had settled into their seats, Nix asks you to
               introduce yourself. You were not expecting Anchor to have this
@@ -1255,16 +1277,6 @@ export var pages3 = [
               single drop fell from the floating mass of water suspended above
               the conference room.
             </p>
-            <p class="v">
-              <span class="bold1">V:</span> As you can see, True Aqua is highly
-              concentrated mass of purified water imbued with True Ether. Our
-              island sea barriers are composed of the stuff- serving as a wall,
-              a barrier, a bounded field, and a window into the oceans- all at
-              once. There are many practical uses for True Aqua. The clearance
-              the Denthal chiefs gave us to use True Aqua for the Expo will be
-              designated for the design and construction of the following
-              project:
-            </p>
           </div>
 
           <div className="next2">
@@ -1283,6 +1295,16 @@ export var pages3 = [
       <div className="oceanblue">
         <div className="smalltext">
           <div className="maintext">
+            <p class="v">
+              <span class="bold1">V:</span> As you can see, True Aqua is highly
+              concentrated mass of purified water imbued with True Ether. Our
+              island sea barriers are composed of the stuff- serving as a wall,
+              a barrier, a bounded field, and a window into the oceans- all at
+              once. There are many practical uses for True Aqua. The clearance
+              the Denthal chiefs gave us to use True Aqua for the Expo will be
+              designated for the design and construction of the following
+              project:
+            </p>
             <p>
               V's floating orb projected on to the conference room screen
               designs for a floating mass of True Aqua shaped like an oval jewel
@@ -1291,6 +1313,25 @@ export var pages3 = [
             <p class="v">
               <span class="bold1">V:</span> The Grand Aquarium.
             </p>
+          </div>
+
+          <div className="next2">
+            <Link to="eha22.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/eha22.5",
+    body: (
+      <div className="oceanblue">
+        <div className="smalltext">
+          <div className="maintext">
             <p>
               Images of Nix's immaculate hand drawn designs featured a habitable
               ecosystem teeming with life in the oceans.
@@ -1335,15 +1376,33 @@ export var pages3 = [
               in surprise, causing her control of the water to release and crash
               down on everyone.
             </p>
-            <p>
-              <span className="bold2">WHOOSH</span>
-            </p>
+          </div>
+
+          <div className="goright">
+            <Link to="eha23.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/eha23.5",
+    body: (
+      <div className="oceanblue">
+        <div className="crash">
+          <div className="noise">whoosh</div>
+
+          <div className="text4">
             <p>
               Before you know it, you are no longer looking at the water, you
               are in it! The water feels warm and pleasant. You start to feel as
               if you could live in it. You catch a glimpse of V activating a
               Rune. The True Aqua gushes toward a single point in V's hand
-              leaving a very wet room and 3 people gasping for air..
+              leaving a very wet room and 3 people gasping for air...
             </p>
           </div>
 
@@ -1600,10 +1659,6 @@ export var pages3 = [
               Karla smiles- if others had cards up their sleeves, Karla had them
               hidden everywhere on her person.
             </p>
-            <p class="karla">
-              <span class="bold1">Karla:</span> Depending on the creativity of
-              your proposal, I have an offer you can't refuse...Fabula Lucis.
-            </p>
           </div>
 
           <div className="next2">
@@ -1623,6 +1678,10 @@ export var pages3 = [
       <div className="oceanblue">
         <div className="smalltext">
           <div className="maintext">
+            <p class="karla">
+              <span class="bold1">Karla:</span> Depending on the creativity of
+              your proposal, I have an offer you can't refuse...Fabula Lucis.
+            </p>
             <p>
               You register shock on Nix's face. Karla, bemused, breathes out
               smoke shaped like hearts.
@@ -2052,11 +2111,6 @@ export var pages3 = [
               walks into the wall. You follow suit and find yourself adjusting
               your eyes to the sight before you.
             </p>
-            <p class="terran">
-              <span class="bold1">Terran:</span> This is another access point to
-              the collections. Our fabrications dealer is something of a
-              treasure collector. Follow me.
-            </p>
           </div>
           <div className="next2">
             <Link to="leave3">
@@ -2075,6 +2129,11 @@ export var pages3 = [
       <div className="oceanblue">
         <div className="smalltext">
           <div className="maintext">
+            <p class="terran">
+              <span class="bold1">Terran:</span> This is another access point to
+              the collections. Our fabrications dealer is something of a
+              treasure collector. Follow me.
+            </p>
             <p>
               Before you is a dimly lit hallway with two metal doors on each
               side and a stairway down. Terran walks toward the stair way and
@@ -2086,15 +2145,6 @@ export var pages3 = [
               when you realize the light to your right is pulsing. Hundreds of
               jellies float along the barrier pulse with vibrant bright arrays
               of magenta, reds, yellows.
-            </p>
-            <p class="terran">
-              <span class="bold1">Terran:</span> We've reached level 2 of Eha
-              Island. The collections vault should be this way.
-            </p>
-            <p>
-              You descend a litle further and find yourself at an entryway
-              leading inward. You wonder what could be further down those stairs
-              while you and Terran walk toward a door. Terran knocks.
             </p>
           </div>
           <div className="next2">
@@ -2114,11 +2164,38 @@ export var pages3 = [
       <div className="oceanblue">
         <div className="smalltext">
           <div className="maintext">
+            <p class="terran">
+              <span class="bold1">Terran:</span> We've reached level 2 of Eha
+              Island. The collections vault should be this way.
+            </p>
+            <p>
+              You descend a litle further and find yourself at an entryway
+              leading inward. You wonder what could be further down those stairs
+              while you and Terran walk toward a door. Terran knocks.
+            </p>
             <p>A brusk voice welcomes you in from an intercom.</p>
             <p class="terran">
               <span class="bold1">Terran:</span> Our host is something of an
               eccentric. Please be polite.
             </p>
+          </div>
+          <div className="next2">
+            <Link to="leave4.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/leave4.5",
+    body: (
+      <div className="oceanblue">
+        <div className="smalltext">
+          <div className="maintext">
             <p>
               Through another tunnel like hallway you enter a cavernous space.
               Walls as high as the stairs you climbed down were embanked with an
@@ -2135,6 +2212,7 @@ export var pages3 = [
               <span class="bold1">Terran:</span> Alright. Let the negotiations
               begin.
             </p>
+            <p>Terran opens the door and ushers you in.</p>
           </div>
           <div className="next2">
             <Link to="leave5">
@@ -2153,8 +2231,6 @@ export var pages3 = [
       <div className="oceanblue">
         <div className="smalltext">
           <div className="maintext">
-            <p>Terran opens the door and ushers you in.</p>
-
             <p class="terran">
               <span class="bold1">Terran:</span> Wyv! It's been eons. I see
               you've redecorated. Thanks for contacting us. Got here as soon as
@@ -2171,10 +2247,6 @@ export var pages3 = [
             <p class="wyv">
               <span class="bold1">Wyv:</span> Make yourself comfortable.
               Pleasse, join me.
-            </p>
-            <p>
-              Terran nods at you. You take off your shoes, and sit across from
-              Wyv. Terran joins you, legs folded.
             </p>
           </div>
           <div className="next2">
@@ -2193,32 +2265,16 @@ export var pages3 = [
       <div className="oceanblue">
         <div className="smalltext">
           <div className="maintext">
+            <p>
+              Terran nods at you. You take off your shoes, and sit across from
+              Wyv. Terran joins you, legs folded.
+            </p>
             <p class="terran">
               <span class="bold1">Terran:</span> There is only one person we
               know who can pull this feat off. Fifty fabrications to ensure the
               safe delivery and protection of the True Aqua. The Expo, a flight
               of fantasy, a gathering of the world's people, and also a
               lucrative opportunity for one such as yourself Wyv.
-            </p>
-            <p class="wyv">
-              <span class="bold1">Wyv:</span> I don't eat flattery Terran.
-              Please, show me the goods. You know forging containers for any
-              high grade magics requires an appropriate compensation. I love my
-              ssslumber- the sooner we finish, the sooner I can return to
-              dreaming again.
-            </p>
-            <p class="terran">
-              <span class="bold1">Terran:</span> Of course Wyv, please take this
-              as a complimentary token.
-            </p>
-            <p>
-              Wyv receives a medallion from Terran and excitedly examines it.
-            </p>
-            <p>
-              Seems like you and Terran are off to a good start. Tit for tat,
-              Terran's command of language and financial skill works wonders to
-              cajole Wyv into passion. A little push from Terran seems like all
-              one needed to accomplish the impossible.
             </p>
           </div>
           <div className="next2">
@@ -2236,9 +2292,45 @@ export var pages3 = [
     path: "/leave7",
     body: (
       <div className="oceanblue">
-        <div className="smalldialogue">
-          <div className="dialogue">
-            {" "}
+        <div className="smalltext">
+          <div className="maintext">
+            <p class="wyv">
+              <span class="bold1">Wyv:</span> I don't eat flattery Terran.
+              Please, show me the goods. You know forging containers for any
+              high grade magics requires an appropriate compensation. I love my
+              ssslumber- the sooner we finish, the sooner I can return to
+              dreaming again.
+            </p>
+            <p class="terran">
+              <span class="bold1">Terran:</span> Of course Wyv, please take this
+              as a complimentary token.
+            </p>
+            <p>
+              Wyv receives a medallion from Terran and excitedly examines it.
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="leave8">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+  {
+    path: "/leave8",
+    body: (
+      <div className="oceanblue">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              Seems like you and Terran are off to a good start. Tit for tat,
+              Terran's command of language and financial skill works wonders to
+              cajole Wyv into passion. A little push from Terran seems like all
+              one needed to accomplish the impossible.
+            </p>
             <p class="wyv">
               <span class="bold1">Wyv:</span> Yesss, yesss! This is the work
               I've been waiting to do. I've grown bored of these literal pet
@@ -2246,10 +2338,29 @@ export var pages3 = [
               contract with Sola and begin the forging! - Is what I would say if
               I was certain about this contract I am looking at.
             </p>
-            <p>Wyv is about to close the deal when you are asked a question.</p>
+          </div>
+          <div className="next2">
+            <Link to="leave9">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/leave9",
+    body: (
+      <div className="oceanblue">
+        <div className="smalldialogue">
+          <div className="dialogue">
+            {" "}
+            <p>Wyv is about to close the deal but hesitates, turning to you.</p>
             <p class="wyv">
-              <span class="bold1">Wyv:</span> What about you you're pretty quiet
-              over there. Should I take this offer?
+              <span class="bold1">Wyv:</span> What about you, you're pretty
+              quiet over there. Should I take this offer?
             </p>
             <p>
               A strange question. You surmise Wyv is being rather shrewd. What
@@ -2280,8 +2391,8 @@ export var pages3 = [
         <div className="smalltext">
           <div className="maintext">
             <p class="wyv">
-              <span class="bold1">Wyv:</span> How disappointing. That just won't
-              work for me.
+              <span class="bold1">Wyv:</span> How disssappointing. That just
+              won't work for me.
             </p>
             <p>
               You overplay your hand and Wyv decides to retract the agreement.
@@ -2354,6 +2465,24 @@ export var pages3 = [
               Astridian environment. You offer the idea up to Wyv to stockpile
               those as well.
             </p>
+          </div>
+          <div className="next2">
+            <Link to="down1.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/down1.5",
+    body: (
+      <div className="oceanblue">
+        <div className="smalltext">
+          <div className="maintext">
             <p class="wyv">
               <span class="bold1">Wyv:</span> I'm in!
             </p>
@@ -2366,7 +2495,7 @@ export var pages3 = [
               away. Tell Nix, they've gotten lucky with the new hires. See you
               in Astris. Goddess speed!
             </p>
-            <p>You and Terran say your goodbyes.</p>
+            <p>You and Terran say your goodbyes to the lizardman.</p>
           </div>
           <div className="next2">
             <Link to="down2">
@@ -2585,11 +2714,6 @@ export function Eha17(props) {
           <p>
             Nix waves a hand and a sound of bells ringing in the conference room
             clears the air.
-          </p>
-          <p class="nix">
-            <span class="bold1">Nix:</span> Settle down, everyone. It's enough
-            that we have a fickle client. V, summon Pith. I've received an
-            update on the rune adjustments.
           </p>
         </div>
         <div className="next2">
