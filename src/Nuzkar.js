@@ -5,7 +5,7 @@ import "./App.css";
 import { App, Page } from "./App";
 
 export var pages2 = [
-  //introduction 1
+  //array of pages
   {
     path: "/redhare1",
     body: (
