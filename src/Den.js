@@ -783,8 +783,32 @@ export var pages3 = [
               <span class="bold1">Jingo:</span> Tch. This is better style than
               anything any of you are wearing.
             </p>
-            <p>
-              Hocker Jingo, scowls at Terran, and moves on to his next mark.
+          </div>
+
+          <div className="next2">
+            <Link to="eha5.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/eha5.5",
+    body: (
+      <div className="oceanblue">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>Hocker Jingo scowls at Terran, and moves on to his next mark.</p>
+            <p class="terran">
+              <span class="bold1">Terran:</span> You fell for that hook, line,
+              and sinker. If I hadn't intervened, you would have found yourself
+              with one of Jingo's viruses. He has a habit of adding curse
+              viruses to his downloads, allowing him to extort you for more than
+              the worth of that fabric he tried to hock off on you.
             </p>
           </div>
 
@@ -805,13 +829,6 @@ export var pages3 = [
       <div className="oceanblue">
         <div className="smalltext">
           <div className="maintext">
-            <p class="terran">
-              <span class="bold1">Terran:</span> You fell for that hook, line,
-              and sinker. If I hadn't stopped you, you would have found yourself
-              with one of Jingo's viruses. He has a habit of adding curse
-              viruses to his downloads, allowing him to extort you for more than
-              the worth of that fabric he tried to hock off on you.
-            </p>
             <p>
               Terran points to a young woman wearing an industrial work apron.
             </p>

@@ -532,6 +532,13 @@ input[type="image"] {
   grid-row-end: 4;
 }
 
+.kiwis {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
 /* home page background */
 
 .home {

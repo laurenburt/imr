@@ -5,7 +5,7 @@ import "./App.css";
 import "./Indent.css";
 import { pages2 } from "./Nuzkar";
 import { pages3 } from "./Den";
-import { N6 } from "./Nuzkar";
+import { N105 } from "./Nuzkar";
 import { OT5 } from "./Nuzkar";
 import { Party4 } from "./Nuzkar";
 import { MK4 } from "./Den";
@@ -2238,7 +2238,7 @@ export function App() {
       {/* {name == "Lauren" ? "" : name} */}
 
       <audio class="audio" controls="controls">
-        <source type="audio/mp3" src="imrmix1.mp3" />
+        <source type="audio/mp3" src="imrmix2.mp3" />
       </audio>
 
       <div className="App">
@@ -2303,8 +2303,8 @@ export function App() {
             <Unrolled name={name}></Unrolled>
           </Route> */}
 
-          <Route path={"/n6"} exact={true}>
-            <N6 name={name}></N6>
+          <Route path={"/n10.5"} exact={true}>
+            <N105 name={name}></N105>
           </Route>
 
           <Route path={"/ot5"} exact={true}>

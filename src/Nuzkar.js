@@ -318,7 +318,7 @@ export var pages2 = [
         <div className="crash">
           <div className="back">(outside the expo site)</div>
           <div className="text4">
-            <p>The rain had resided- you were drenched and listless.</p>
+            <p>The rain had resided- you're drenched and listless.</p>
             <p>
               Why didn't Virgil tell you И would be working on this project too?
               Wasn't the reason why you left the company in the first place so
@@ -458,7 +458,7 @@ export var pages2 = [
             <p class="em">
               <span class="bold1">Em:</span> Is that so?
             </p>
-            <p>Em beams with a gleeful smile and winks.</p>
+            <p>Em squeals with a gleeful smile.</p>
 
             <p class="em">
               <span class="bold1">Em:</span> You're the first person who has
@@ -1002,10 +1002,9 @@ export var pages2 = [
 
             <p>
               The thermal tram's windowless feature allows you to feel the ether
-              rich air, cool at night, yet always warm.
+              rich air, cool at night, yet always warm. Your Sintax guide
+              notifies you to get off the next station.
             </p>
-
-            <p>Your digital guide notifies you to get off the next station.</p>
           </div>
           <div className="next2">
             <Link to="/n6">
@@ -1029,10 +1028,10 @@ export var pages2 = [
               {" "}
               'ΕΞΩΤΕΡΙΚΟ ΔΙΑΚΟΣΜΗΤΙΚΟ 130 ΕΠΑΡΧΙΑ'
             </span>{" "}
-            <p>You get off the station platform-</p>
-            <p>The thermal tram departs, taking its warmth with it.</p>
             <p>
-              Looking up, you see the Vesti constellation and the Northern node.
+              You get off the station platform- the thermal tram departs, taking
+              its warmth with it. Looking up, you see the Vesti constellation
+              and the Northern node.
             </p>
             <p>
               Strange- your retinal scan and digital guide isn't working. You
@@ -1062,8 +1061,7 @@ export var pages2 = [
               You make it no further than 4 blocks down the pathway when you
               stop abruptly, glancing furtively from home to home.
             </p>
-            <p>Not one light is on.</p>
-            <p>The streets are empty.</p>
+            <p>Not one light is on- the streets are empty.</p>
             <p>What exactly is going on here?</p>
             <p>What is that ahead?</p>
           </div>
@@ -1163,7 +1161,7 @@ export var pages2 = [
             </p>
           </div>
           <div className="next2">
-            <Link to="/n11">
+            <Link to="/n10.5">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -1425,7 +1423,7 @@ export var pages2 = [
     path: "/ot1",
     body: (
       <div className="sunset">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               You hop on the elongated floating disc behind Gale. The metal
@@ -1443,6 +1441,24 @@ export var pages2 = [
               <span class="bold1">Gale:</span> I'd say buckle up but there's
               none of that. Hold on to me, alright?
             </p>
+          </div>
+          <div className="next2">
+            <Link to="/ot1.5">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/ot1.5",
+    body: (
+      <div className="sunset">
+        <div className="smalltext">
+          <div className="maintext">
             <p>
               Gale smiles wide and with a whoosh you ascend into the night sky
               holding on to them for dear life. Maybe you were better off with
@@ -1486,6 +1502,12 @@ export var pages2 = [
               planet. Around you , Nuzkari couples on floating discs watch, dine
               together, in this light and heights.
             </p>
+            <p>
+              You make out the phoenix herons' new nesting grounds below, their
+              bodies shining with the city adorned blue tiled roofs. You see all
+              30 districts, each with their own respective coloration, like a
+              sorted treasure box of jewels.
+            </p>
           </div>
           <div className="next2">
             <Link to="/ot2.5">
@@ -1504,12 +1526,6 @@ export var pages2 = [
       <div className="sunset">
         <div className="smalltext">
           <div className="maintext">
-            <p>
-              You make out the phoenix herons' new nesting grounds below, their
-              bodies shining with the city adorned blue tiled roofs. You see all
-              30 districts, each with their own respective coloration, like a
-              sorted treasure box of jewels.
-            </p>
             <p className="gale">
               <span class="bold1">Gale:</span> Purdy, isn't it?
             </p>
@@ -1518,6 +1534,13 @@ export var pages2 = [
               You nod. Gale's eyes glimmer all the green hues in the world. You
               are hard put to answer back- there are definitely pretty things to
               see here...
+            </p>
+            <p>Hru quietly steers the disc, heading to Em's home.</p>
+            <p className="gale">
+              <span class="bold1">Gale:</span> Since this is your first time, I
+              wanted you to see what the Nuzkari see. I'm glad I get to be the
+              first person to take you to this spot. Here- This is my call card.
+              Let me know if you find yourself in a bind or want to be in one.
             </p>
           </div>
           <div className="next2">
@@ -1536,18 +1559,8 @@ export var pages2 = [
       <div className="sunset">
         <div className="bigtext">
           <div className="maintext">
-            <p>Hru quietly steers the disc, heading to Em's home.</p>
+            <p>Gale chuckles at their own joke.</p>
 
-            <p className="gale">
-              <span class="bold1">Gale:</span> Since this is your first time, I
-              wanted you to see what the Nuzkari see. I'm glad I get to be the
-              first person to take you to this spot. Here- This is my call card.
-              Let me know if you find yourself in a bind or want to be in one.
-            </p>
-            <p>Gale chuckles.</p>
-            <p className="gale">
-              <span class="bold1">Gale:</span> That was a joke!
-            </p>
             <p className="hru">
               <span class="bold1">Hru:</span> Gale's laughter success rate is
               20%.
@@ -1565,10 +1578,6 @@ export var pages2 = [
               <span class="bold1">Gale:</span> Why you little scrap dust!
             </p>
             <p>You take Gale's card, laughing.</p>
-            <p>
-              As the disc gently descends into the neighborhood you begin to
-              make out a bright cherry wavy fringe. Unmistakably Em!
-            </p>
           </div>
           <div className="next2">
             <Link to="/ot4">
@@ -1587,12 +1596,10 @@ export var pages2 = [
       <div className="sunset">
         <div className="smalltext">
           <div className="maintext">
-            <p className="gale">
-              <span class="bold1">Gale:</span> So that's your friend? Cool hair.
-            </p>
             <p>
-              You nod in approval and get off the disc, thanking both Gale and
-              Hru for everything.
+              As the disc gently descends into the neighborhood you begin to
+              make out a bright cherry wavy fringe. Unmistakably Em! You get off
+              the disc, thanking both Gale and Hru for everything.
             </p>
 
             <p className="gale">
@@ -1760,7 +1767,7 @@ export var pages2 = [
     path: "/ot9",
     body: (
       <div className="sunset">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               Gem, rune, and heat based magecraft powers Nuzkar, a region
@@ -1773,6 +1780,24 @@ export var pages2 = [
               still a mystery. Your Expo research is paying off you think- but
               what you see beyond the gate, is entirely new to you.
             </p>
+          </div>
+          <div className="next2">
+            <Link to="/ot10">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/ot10",
+    body: (
+      <div className="sunset">
+        <div className="smalltext">
+          <div className="maintext">
             <p className="em">
               <span class="bold1">Em:</span> It's beautiful isn't it?
             </p>
@@ -1784,6 +1809,24 @@ export var pages2 = [
               Em's home foundation made total sense to you now. You look at Em
               knowingly. A part of you hesitates to ask how Em acquired this.
             </p>
+          </div>
+          <div className="next2">
+            <Link to="/ot11">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/ot11",
+    body: (
+      <div className="sunset">
+        <div className="smalltext">
+          <div className="maintext">
             <p className="em">
               <span class="bold1">Em:</span> It's a long story- I'll tell you
               later. All you need to know for now is that I earned this bad boy.
@@ -1802,6 +1845,7 @@ export var pages2 = [
     ),
     links: [],
   },
+
   {
     path: "/party1",
     body: (
@@ -2180,8 +2224,8 @@ export var pages2 = [
     path: "/cage4b",
     body: (
       <div className="sunset">
-        <div className="bigtext">
-          <div className="maintext">
+        <div className="bigdialogue">
+          <div className="dialogue">
             <p>A strong wind blows from the cage.</p>
             <p>Light streams from the shadows, so bright you look away.</p>
             <p>
@@ -2248,13 +2292,13 @@ export var pages2 = [
               favor releasing the Guardian's offspring.
             </p>
             <p className="sodi">
-              <span class="bold1">Sodi:</span>EM!? I've heard that name before-
+              <span class="bold1">Sodi:</span> EM!? I've heard that name before-
               you're that animal rights activist killing my business!!! Fellas,
               give this carfass a cheese special- I want a million holes in the
               snitch! GO!
             </p>
           </div>
-          <div className="next2">
+          <div className="kiwis">
             <Link to="/cage5b">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
@@ -2718,11 +2762,11 @@ export var pages2 = [
 //   );
 // }
 
-export function N6(props) {
+export function N105(props) {
   return (
     <div className="sunset">
-      <div className="bigtext">
-        <div className="maintext">
+      <div className="bigdialogue">
+        <div className="dialogue">
           <p> You try to scream but are unable to make a sound.</p>
           <p className="indent1">
             <span class="bold1">???:</span> ΠΕΡΙΟΧΗ ΚΡΟΝΟΣ ΚΛΙΡΩΝΟΜΙΑ!
@@ -2775,8 +2819,8 @@ export function N6(props) {
             encountered the sentinel.
           </p>
         </div>
-        <div className="next2">
-          <Link to="/n7">
+        <div className="kiwis">
+          <Link to="/n11">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
