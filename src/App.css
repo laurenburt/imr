@@ -61,6 +61,36 @@ body {
   height: 100vh; */
 }
 
+.oceanblue2 {
+  background: radial-gradient(
+    ellipse at bottom,
+    #36968a,
+    /* #347f7e, */ #237996,
+    #16637f /* #00bfff */
+  );
+}
+.oceanblue {
+  background: radial-gradient(
+    ellipse at bottom,
+    #36968a,
+    #347f7e,
+    #237996,
+    #16637f
+  );
+  /* background: radial-gradient(#3b6d7f, #347f7e, #16637f, #237996)45b3e0 */
+  /* #3b6d7f,
+  #16637f,
+  #237996, */
+  background-size: 100%;
+  /* width: 100wh;
+height: 100vh; */
+  min-height: 100%;
+  /* position: absolute; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .flashbackground {
   background: radial-gradient(ellipse at top, #33444e, transparent),
     radial-gradient(ellipse at bottom, #c4cace, transparent);
@@ -70,67 +100,23 @@ body {
   background-size: 100%;
 }
 
-.theend {
-  background: radial-gradient(ellipse at top, #33444e, #232f36);
+.end1 {
+  background: radial-gradient(ellipse at top, #a9ace8, transparent),
+    radial-gradient(ellipse at top, #a9ace8, transparent);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.end2 {
+  background: radial-gradient(ellipse at top, #232f36, #003366);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
 }
 
-/* indentation */
-
-p.indent1 {
-  text-indent: -2em;
-  font-weight: bold;
-  /* font-family: "Hind Madurai", sans-serif; */
-}
-p.ran {
-  text-indent: -2.5em;
-  font-weight: bold;
-}
-p.hru {
-  text-indent: -2.4em;
-  font-weight: bold;
-}
-p.gale {
-  text-indent: -2.7em;
-  font-weight: bold;
-}
-p.rosha {
-  text-indent: -3.5em;
-  font-weight: bold;
-}
-
-p.harcartt {
-  text-indent: -4.5em;
-  font-weight: bold;
-}
-
-p.em {
-  text-indent: -2em;
-  font-weight: bold;
-}
-
-p.automaton {
-  text-indent: -5.5em;
-  font-weight: bold;
-}
-p.sodi {
-  text-indent: -2.4em;
-  font-weight: bold;
-}
-
-span.bold1 {
-  font-size: 1.1em;
-  font-weight: bolder;
-}
-
-span.bold2 {
-  font-weight: bold;
-}
-
-span.end {
+.end1text {
   font-family: "Cinzel Decorative", cursive;
   font-size: 12em;
   /* font-weight: bold; */
@@ -138,26 +124,33 @@ span.end {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  background: -webkit-linear-gradient(#003366, #c0c0c0);
-  /* background: -webkit-linear-gradient(#003366, #6e0202); */
-
   text-align: center;
-  /* background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(20%, #003366),
-    color-stop(40%, #c0c0c0),
-    color-stop(60%, #6e0202),
-    color-stop(80%, #003366)
-  ); */
-  /* background: linear-gradient(
-    to right,
+
+  background: linear-gradient(
+    to left,
     #003366 20%,
-    #6e0202 40%,
-    #6e0202 60%,
+    transparent 50%,
     #003366 80%
-  ); */
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: shine 3s linear infinite;
+  animation: shine 3s linear infinite;
+}
+.end2text {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 12em;
+  /* font-weight: bold; */
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+
   background: linear-gradient(
     to right,
     #000 20%,
@@ -185,7 +178,21 @@ span.end {
   }
 }
 
-.the {
+.end1textb {
+  /* font-family: federo-custom; */
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 3em;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  /* background: -webkit-linear-gradient(#450101, #232f36); */
+  background: -webkit-linear-gradient(#0060bf, #c3abdb);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.end2textb {
   /* font-family: federo-custom; */
   font-family: "Cinzel Decorative", cursive;
   font-size: 3em;
@@ -199,12 +206,9 @@ span.end {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .lombardic {
   float: left;
-  /* font-family: "Katibeh", cursive; */
-  /* font-family: "Gentium Basic", serif; */
-  /* font-family: "Cinzel", serif; */
-  /* font-family: "Cardo", serif; */
   font-family: "Gentium Book Basic", serif;
   font-size: 12em;
   background: -webkit-linear-gradient(#003366, #c0c0c0);
@@ -368,9 +372,9 @@ input[type="image"] {
   width: 100vmax;
   height: 100vmin;
 }
-.wrapper2 > div {
+/* .wrapper2 > div {
   border: 1px solid black;
-}
+} */
 
 .centered {
   display: grid;
@@ -401,9 +405,9 @@ input[type="image"] {
   height: 100vmin;
 }
 
-.abgrid > div {
+/* .abgrid > div {
   border: 1px solid black;
-}
+} */
 
 .text {
   grid-column-start: 2;
@@ -438,16 +442,16 @@ input[type="image"] {
 }
 
 /* grid for lots of text */
-.bigtext > div {
+/* .bigtext > div {
   border: solid black;
-}
+} */
 
 .bigtext {
   display: grid;
   grid-template-columns: 0.5fr 3fr 0.5fr;
   grid-template-rows: 0.4fr 3fr 0.3fr 0.1fr;
-  /* width: 100vmax;
-  height: 100vmin; */
+  width: 100vmax;
+  height: 100vmin;
 }
 
 .smalltext {
@@ -457,9 +461,9 @@ input[type="image"] {
   width: 100vmax;
   height: 100vmin;
 }
-.smalltext > div {
+/* .smalltext > div {
   border: solid black;
-}
+} */
 .maintext {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -487,9 +491,9 @@ input[type="image"] {
   height: 100vmin; */
 }
 
-.bigdialogue > div {
+/* .bigdialogue > div {
   border: solid black;
-}
+} */
 
 .smalldialogue {
   display: grid;
@@ -498,9 +502,9 @@ input[type="image"] {
   width: 100vmax;
   height: 100vmin;
 }
-.smalldialogue > div {
+/* .smalldialogue > div {
   border: solid black;
-}
+} */
 
 .dialogue {
   grid-column-start: 2;
@@ -518,6 +522,12 @@ input[type="image"] {
 .oranges {
   grid-column-start: 4;
   grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.bananas {
+  grid-column-start: 3;
+  grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
 }
@@ -661,6 +671,17 @@ input[type="image"] {
   -webkit-background-clip: text;
 }
 
+.textlink3 {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: #00b7eb;
+  /* color: #070084; */
+  font-family: "Tajawal", sans-serif;
+  -webkit-background-clip: text;
+}
+
 .textlink:hover {
   display: inline-block;
   text-decoration: none;
@@ -678,6 +699,16 @@ input[type="image"] {
   border: none;
   /* color: #003366; */
   color: #faa9b4;
+  background-color: transparent;
+}
+
+.textlink3:hover {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  /* color: #003366; */
+  color: #9fc76e;
   background-color: transparent;
 }
 
@@ -767,9 +798,9 @@ input[type="image"] {
   height: 100vmin;
 }
 
-.longresponse > div {
+/* .longresponse > div {
   border: 1px solid black;
-}
+} */
 
 .text3 {
   grid-column-start: 2;
@@ -805,9 +836,9 @@ input[type="image"] {
   height: 100vmin;
 }
 
-.crash > div {
+/* .crash > div {
   border: solid black;
-}
+} */
 
 .noise {
   grid-column-start: 2;
@@ -853,9 +884,9 @@ input[type="image"] {
 
 /* grid for flashbacks */
 
-.flashback > div {
+/* .flashback > div {
   border: 1px solid black;
-}
+} */
 .flashback {
   display: grid;
   /* grid-template-columns: 0.1fr 0.3fr 2fr 0.3fr 0.1fr;
@@ -873,13 +904,14 @@ input[type="image"] {
 
 /* grid for letter */
 
-.letter > div {
+/* .letter > div {
   border: 1px solid black;
-}
+} */
 .letter {
   font-family: "Bad Script", cursive;
   color: #003366;
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 1.3em;
   display: grid;
   grid-template-columns: 0.5fr 3fr 0.5fr;
   grid-template-rows: 0.1fr 3fr 0.3fr 0.1fr;

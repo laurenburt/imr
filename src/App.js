@@ -2,12 +2,17 @@ import React, { Component } from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ReactDOM from "react-dom";
 import "./App.css";
+import "./Indent.css";
 import { pages2 } from "./Nuzkar";
 import { pages3 } from "./Den";
-// import { Unrolled } from "./Nuzkar";
 import { N6 } from "./Nuzkar";
 import { OT5 } from "./Nuzkar";
 import { Party4 } from "./Nuzkar";
+import { MK4 } from "./Den";
+import { Eha12 } from "./Den";
+import { Eha16 } from "./Den";
+import { Eha17 } from "./Den";
+import { P2C } from "./Den";
 
 var pages = [
   //title
@@ -682,7 +687,7 @@ var pages = [
     path: "/tmeet2b",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               They appear to be amused. The glare from Creamface softens into a
@@ -1076,7 +1081,7 @@ var pages = [
     path: "/gmeet2a",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               Before you put this stranger on blast, your jaw slacks, your eyes
@@ -1095,13 +1100,6 @@ var pages = [
               I'd guess that you also live near Naer Park...
             </p>
             <p>They smirk at the look of bewilderment on your face.</p>
-            <p className="indent1">
-              <span className="bold1">???:</span> I pay attention-that's all
-            </p>
-            <p>
-              The stranger, head still close, helps you upright, pats you on
-              your shoulder and puts a hand out with a devilish smile.
-            </p>
           </div>
 
           <div className="next2">
@@ -1119,7 +1117,7 @@ var pages = [
     path: "/gmeet2b",
     body: (
       <div className="sunrise">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               Before you can summon the words to pitch a wafelrol sale, your
@@ -1138,13 +1136,6 @@ var pages = [
               I'd guess that you also live near Naer Park...
             </p>
             <p>They smirk at the look of bewilderment on your face.</p>
-            <p className="indent1">
-              <span className="bold1">???:</span> I pay attention-that's all
-            </p>
-            <p>
-              The stranger, head still close, helps you upright, pats you on
-              your shoulder and puts a hand out with a devilish smile.
-            </p>
           </div>
 
           <div className="next2">
@@ -1164,6 +1155,13 @@ var pages = [
       <div className="sunrise">
         <div className="smalltext">
           <div className="maintext">
+            <p className="indent1">
+              <span className="bold1">???:</span> I pay attention-that's all
+            </p>
+            <p>
+              The stranger, head still close, helps you upright, pats you on
+              your shoulder and puts a hand out with a devilish smile.
+            </p>
             <p>
               Red flags. Stranger Danger! No one in Shale is this cool. The
               stranger lifts their fingers in gesture toward you.
@@ -1231,7 +1229,7 @@ var pages = [
               for CO.
             </p>
             <p>
-              A Vrnyan automoton hovers above the strangers' shoulder, hotboxes
+              A Vrnyan automoton hovers above the stranger's shoulder, hotboxes
               in one impossibly high and neat stack floats above its globular
               body in an exlamation point, as if to convey that the person
               beside the machine indeed is a living warning sign.
@@ -1258,7 +1256,7 @@ var pages = [
               {" "}
               You recall your mid level arcstories. Vrnyan technology though
               ancient, is highly advanced- many of the modern innovations made
-              throughout the world stem from the inventiveness of the Vrynyan's.
+              throughout the world stem from the inventiveness of the Vrynyans.
               Whatever became of their civilization, their legacy continued in
               forms like the automoton before you whose pattern design, while
               supremely functional, also looked rather cute...
@@ -1285,7 +1283,7 @@ var pages = [
               Before you can claim your wafelrol, you hear a short and loud
               beep. Standing in front of the hot cake shop is a waifish woman
               with short parted hair and a demure expression on her face- she
-              holds out a cashiers pad in one hand toward the stranger.
+              holds out a cashier's pad in one hand toward the stranger.
             </p>
             <p class="rosha">
               <span class="bold1">Rosha: </span> Don't forgot to sign your key
@@ -1457,14 +1455,14 @@ var pages = [
             <p className="rosha">
               <span className="bold1">Rosha:</span> Gale there works for the
               civic enterprise. I got a rush order for some visiting dignitary
-              from South Wards branch officer right before I opened. Almost said
-              no to the government, ha! Lucky for them, Gale is incredibly
+              from South Wards' branch officer right before I opened. Almost
+              said no to the government, ha! Lucky for them, Gale is incredibly
               persuasive. I'm pretty sure that one can convince day its night.
             </p>
             <p>
               You converse with Rosha at length over Angra tea while she kneads
               and works on a fresh set of rols. Her partner Mik, assistant
-              siblings Camas and Shrum's content shuffles and laughter punctuate
+              siblings Camas and Shrums' content shuffles and laughter punctuate
               the back kitchen ongoings. After some time, you bid Rosha
               farewell, a bag of fresh rols in hand- this time you walk back the
               way you came.
@@ -1762,7 +1760,7 @@ function Tmeet3(props) {
           </p>
           <p class="ran">
             <span class="bold1">Ran: </span>Typical {props.name}. I don’t see
-            you in while’s and already you’re causing a stir. Cat dodo, it’s
+            you in a while and already you’re causing a stir. Cat dodo, it’s
             time for a snack!
           </p>
         </div>
@@ -1980,6 +1978,22 @@ export function App() {
 
           <Route path={"/party4"} exact={true}>
             <Party4 name={name}></Party4>
+          </Route>
+
+          <Route path={"/mk4"} exact={true}>
+            <MK4 name={name}></MK4>
+          </Route>
+          <Route path={"/eha12"} exact={true}>
+            <Eha12 name={name}></Eha12>
+          </Route>
+          <Route path={"/eha16"} exact={true}>
+            <Eha16 name={name}></Eha16>
+          </Route>
+          <Route path={"/eha17"} exact={true}>
+            <Eha17 name={name}></Eha17>
+          </Route>
+          <Route path={"/p2c"} exact={true}>
+            <P2C name={name}></P2C>
           </Route>
         </Switch>
       </div>

@@ -73,21 +73,19 @@ export var pages2 = [
     path: "/redhare3",
     body: (
       <div className="sunset">
-        <div className="bigtext">
+        <div className="smalltext">
           <div className="maintext">
             <p>
               You sit at the window side of the train car, gazing at the
-              mountains ahead of the Merchant’s corridor.
+              mountains ahead of the Merchant’s corridor. You think that if
+              there’s someone who’s actually stepped foot on these lands
+              terrains, bets would be on Em.
             </p>
             <p>
-              You think that if there’s someone who’s actually stepped foot on
-              these lands terrains, bets would be on Em.
+              A minor wearing a black trenchcoat walks by your aisle and they
+              remind you of your encounter with Gale a couple days ago. A
+              strange egg that one, you think while smiling broadly.
             </p>
-            <p>
-              A minor wearing a black treanchcoat walks by your aisle and they
-              remind you of your encounter with Gale a couple days ago.
-            </p>
-            <p>A strange egg that one, you think while smiling broadly.</p>
             <p>
               <i>Ding</i>
             </p>
@@ -246,11 +244,9 @@ export var pages2 = [
           <div className="maintext">
             <p>
               You enter the restroom by scanning your card. Your preset
-              automatically sets the temperature and mutes the sound.
-            </p>
-            <p>
-              Strange, you wonder why the room is bathed in warm orange light-
-              until you draw closer to the restroom window.
+              automatically sets the temperature and mutes the sound. Strange,
+              you wonder why the room is bathed in warm orange light- until you
+              draw closer to the restroom window.
             </p>
             <p>
               Ascending en masse, hundreds of the lustrous phoenix herons rise
@@ -1415,30 +1411,9 @@ export var pages2 = [
             </p>
           </div>
           <div className="next2">
-            <Link to="/ref4">
+            <Link to="/end2">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
-          </div>
-        </div>
-      </div>
-    ),
-    links: [],
-  },
-
-  {
-    path: "/ref4",
-    body: (
-      <div className="theend">
-        <div className="wrapper2">
-          <div className="imr1">
-            <div className="centered">
-              <span className="end">eNd</span>
-            </div>
-          </div>
-          <div className="imr2">
-            <div className="centered">
-              <span className="the">ad meliora</span>
-            </div>
           </div>
         </div>
       </div>
@@ -2102,30 +2077,9 @@ export var pages2 = [
             </p>
           </div>
           <div className="next2">
-            <Link to="/cage3a">
+            <Link to="/end2">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
-          </div>
-        </div>
-      </div>
-    ),
-    links: [],
-  },
-
-  {
-    path: "/cage3a",
-    body: (
-      <div className="theend">
-        <div className="wrapper2">
-          <div className="imr1">
-            <div className="centered">
-              <span className="end">eNd</span>
-            </div>
-          </div>
-          <div className="imr2">
-            <div className="centered">
-              <span className="the">ad meliora</span>
-            </div>
           </div>
         </div>
       </div>
@@ -2636,7 +2590,7 @@ export var pages2 = [
             <p>You kiss.</p>
           </div>
           <div className="next2">
-            <Link to="/endn">
+            <Link to="/end1">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -2697,7 +2651,7 @@ export var pages2 = [
             </p>
           </div>
           <div className="next2">
-            <Link to="/endn">
+            <Link to="/end1">
               <img src="cleararrow.png" width="100" height="125"></img>
             </Link>
           </div>
@@ -2706,21 +2660,41 @@ export var pages2 = [
     ),
     links: [],
   },
-  /* Epilogues */
 
   {
-    path: "/endn",
+    path: "/end1",
     body: (
-      <div className="theend">
+      <div className="end1">
         <div className="wrapper2">
           <div className="imr1">
             <div className="centered">
-              <span className="end">eNd</span>
+              <span className="end1text">eNd</span>
             </div>
           </div>
           <div className="imr2">
             <div className="centered">
-              <span className="the">ad meliora</span>
+              <span className="end1textb">ad meliora</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+
+  {
+    path: "/end2",
+    body: (
+      <div className="end2">
+        <div className="wrapper2">
+          <div className="imr1">
+            <div className="centered">
+              <span className="end2text">eNd</span>
+            </div>
+          </div>
+          <div className="imr2">
+            <div className="centered">
+              <span className="end2textb">ad meliora</span>
             </div>
           </div>
         </div>

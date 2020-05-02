@@ -1,0 +1,105 @@
+/* indentation */
+
+p.indent1 {
+  text-indent: -1.7em;
+  font-weight: bold;
+}
+p.ran {
+  text-indent: -2.2em;
+  font-weight: bold;
+}
+p.terran {
+  text-indent: -3.5em;
+  font-weight: bold;
+}
+p.hru {
+  text-indent: -2.2em;
+  font-weight: bold;
+}
+p.gale {
+  text-indent: -2.5em;
+  font-weight: bold;
+}
+p.rosha {
+  text-indent: -3.2em;
+  font-weight: bold;
+}
+
+p.harcartt {
+  text-indent: -4.4em;
+  font-weight: bold;
+}
+
+p.em {
+  text-indent: -2em;
+  font-weight: bold;
+}
+
+p.automaton {
+  text-indent: -5.5em;
+  font-weight: bold;
+}
+p.sodi {
+  text-indent: -2.5em;
+  font-weight: bold;
+}
+
+p.darnic {
+  text-indent: -3.5em;
+  font-weight: bold;
+}
+
+p.sailor {
+  text-indent: -3.1em;
+  font-weight: bold;
+}
+p.driver {
+  text-indent: -3.3em;
+  font-weight: bold;
+}
+
+p.jingo {
+  text-indent: -2.8em;
+  font-weight: bold;
+}
+p.filo {
+  text-indent: -2.1em;
+  font-weight: bold;
+}
+p.nix {
+  text-indent: -1.9em;
+  font-weight: bold;
+}
+p.oslo {
+  text-indent: -2.5em;
+  font-weight: bold;
+}
+p.karla {
+  text-indent: -2.8em;
+  font-weight: bold;
+}
+p.v {
+  text-indent: -1.1em;
+  font-weight: bold;
+}
+p.su {
+  text-indent: -1.6em;
+  font-weight: bold;
+}
+p.fis {
+  text-indent: -1.8em;
+  font-weight: bold;
+}
+p.wyv {
+  text-indent: -2.5em;
+  font-weight: bold;
+}
+
+span.bold1 {
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+span.bold2 {
+  font-weight: bold;
+}
