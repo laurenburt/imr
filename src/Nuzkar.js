@@ -5,7 +5,7 @@ import "./App.css";
 import { App, Page } from "./App";
 
 export var pages2 = [
-  //intro 1
+  //introduction 1
   {
     path: "/redhare1",
     body: (
