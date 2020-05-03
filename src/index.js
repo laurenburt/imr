@@ -6,14 +6,6 @@ import "./Audio.css";
 import Audio from "./Audio";
 import * as serviceWorker from "./serviceWorker";
 
-function AudioApp() {
-  return (
-    <div className="AudioApp">
-      <Audio />
-    </div>
-  );
-}
-
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change

@@ -151,6 +151,69 @@ var pages = [
   //aftermail 1
 
   {
+    path: "/check1b",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              <span className="bold2">
+                {" "}
+                'We met at the Expo site in Astris, and now my colleague Liv has
+                recommended you to me. I'd like to invite you to join us for a
+                visit at Anchor Studios HQ in Denthalassa. I think you could be
+                a valuable addition to our team. I remember you were excited to
+                listen to my shieldfish riding stories and took a liking to the
+                seaflower snacks I’d bring to meetings. You've never been to
+                Den, right? It's a beautiful place - the waters here are warm,
+                every block has its own healing pool and there are plenty of
+                beaches to relax in while eating freshly grilled egg pearls.
+                Though it’s business, there’s nothing wrong with mixing in a
+                little pleasure, no? Listen , There’s something else I wa--'Hey
+                boss, the magnus is here to see you-''
+              </span>
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="check1c">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+  {
+    path: "/check1c",
+    body: (
+      <div className="sunrise">
+        <div className="smalltext">
+          <div className="maintext">
+            <p>
+              -Another voice cuts in. Seems like Nix was calling from the
+              office. First to arrive, last to leave- some things never
+              change...
+            </p>
+            <p>
+              <span className="bold2">
+                'Just when I was getting to the gull goose. Let’s pick up where
+                we left off in Den. See you soon! And take it easy, but not too
+                easy okay?'
+              </span>
+            </p>
+          </div>
+          <div className="next2">
+            <Link to="aftermail1">
+              <img src="cleararrow.png" width="100" height="125"></img>
+            </Link>
+          </div>
+        </div>
+      </div>
+    ),
+    links: [],
+  },
+  {
     path: "/aftermail1",
     body: (
       <div className="sunrise">
@@ -1815,41 +1878,15 @@ function Check1(props) {
               'Morning {props.name}, are you well? - This is Nix Aarhion.'
             </span>
           </p>
-          A voice as crisp as fresh crystal linen weathered by years of smokes
-          and long nights poured from the speaker. You can't believe you're
-          listening to a message from THE Nix Aarhion - one of the most
-          successful mage architects of all time.
           <p>
-            <span className="bold2">
-              {" "}
-              'We met at the Expo site in Astris, and now my colleague Liv has
-              recommended you to me. I'd like to invite you to join us for a
-              visit at Anchor Studios HQ in Denthalassa. I think you could be a
-              valuable addition to our team. I remember you were excited to
-              listen to my shieldfish riding stories and took a liking to the
-              seaflower snacks I’d bring to meetings. You've never been to Den,
-              right? It's a beautiful place - the waters here are warm, every
-              block has its own healing pool and there are plenty of beaches to
-              relax in while eating freshly grilled egg pearls. Though it’s
-              business, there’s nothing wrong with mixing in a little pleasure,
-              no? Listen , There’s something else I wa--'Hey boss, the magnus is
-              here to see you-''
-            </span>
-          </p>
-          <p>
-            -Another voice cuts in. Seems like Nix was calling from the office.
-            First to arrive, last to leave- some things never change...
-          </p>
-          <p>
-            <span className="bold2">
-              'Just when I was getting to the gull goose. Let’s pick up where we
-              left off in Den. See you soon! And, {props.name} ...take it easy,
-              but not too easy okay?'
-            </span>
+            A voice as crisp as fresh crystal linen weathered by years of smokes
+            and long nights poured from the speaker. You can't believe you're
+            listening to a message from THE Nix Aarhion - one of the most
+            successful mage architects of all time.
           </p>
         </div>
         <div className="next2">
-          <Link to="aftermail1">
+          <Link to="check1b">
             <img src="cleararrow.png" width="100" height="125"></img>
           </Link>
         </div>
@@ -1874,34 +1911,6 @@ function Check2(props) {
           and long nights poured from the speaker. You can't believe you're
           listening to a message from THE Nix Aarhion - one of the most
           successful mage architects of all time.
-          <p>
-            <span className="bold2">
-              {" "}
-              'We met at the Expo site in Astris, and now my colleague Liv has
-              recommended you to me. I'd like to invite you to join us for a
-              visit at Anchor Studios HQ in Denthalassa. I think you could be a
-              valuable addition to our team. I remember you were excited to
-              listen to my shieldfish riding stories and took a liking to the
-              seaflower snacks I’d bring to meetings. You've never been to Den,
-              right? It's a beautiful place - the waters here are warm, every
-              block has its own healing pool and there are plenty of beaches to
-              relax in while eating freshly grilled egg pearls. Though it’s
-              business, there’s nothing wrong with mixing in a little pleasure,
-              no? Listen , There’s something else I wa--'Hey boss, the magnus is
-              here to see you-''
-            </span>
-          </p>
-          <p>
-            -Another voice cuts in. Seems like Nix was calling from the office.
-            First to arrive, last to leave- some things never change...
-          </p>
-          <p>
-            <span className="bold2">
-              'Just when I was getting to the gull goose. Let’s pick up where we
-              left off in Den. See you soon! And, {props.name} ...take it easy,
-              but not too easy okay?'
-            </span>
-          </p>
         </div>
 
         <div className="next2">
@@ -2237,7 +2246,7 @@ export function App() {
       {/* <input onChange={(e) => setName(e.target.value)}></input> */}
       {/* {name == "Lauren" ? "" : name} */}
 
-      <audio class="audio" controls="controls">
+      <audio class="audio" controls="controls" loop>
         <source type="audio/mp3" src="imrmix2.mp3" />
       </audio>
 

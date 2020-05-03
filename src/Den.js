@@ -1060,10 +1060,9 @@ export var pages3 = [
               address.
             </p>
             <p>
-              The person you met at the Expo is completely different from the
-              one you had encountered before... Nix folds the file and places
-              the file on the desk, fingers entwined staring at you with a hard
-              look.
+              The person before you is completely different from the one you had
+              encountered in Astris... Nix folds the file and places it on the
+              desk, fingers entwined and looking at you with a hard stare.
             </p>
             <p class="nix">
               <span class="bold1">Nix:</span> Anchor Studios is many things for
@@ -2657,7 +2656,8 @@ export function Eha12(props) {
             the Expo site visit?
           </p>
           <p class="nix">
-            <span class="bold1">Nix:</span> Oh yeah. Alo there {props.name}.
+            <span class="bold1">Nix:</span> Oh yeah! Alo there and welcome to
+            Denthalassa, {props.name}.
           </p>
           <p>
             Nix rises, and approaches, now towering over you. Weary violet grey
@@ -2778,33 +2778,3 @@ export function P2C(props) {
     </div>
   );
 }
-
-// export function Eha12(props) {
-//   return (
-//     <div className="oceanblue">
-//       <div className="smalltext">
-//         <div className="maintext"></div>
-//         <div className="next2">
-//           <Link to="eha13">
-//             <img src="cleararrow.png" width="100" height="125"></img>
-//           </Link>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export function Eha12(props) {
-//   return (
-//     <div className="oceanblue">
-//       <div className="smalltext">
-//         <div className="maintext"></div>
-//         <div className="next2">
-//           <Link to="eha13">
-//             <img src="cleararrow.png" width="100" height="125"></img>
-//           </Link>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }

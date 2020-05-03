@@ -2394,8 +2394,8 @@ export var pages2 = [
             </p>
             <p>
               Gale! You are officially in a daze. Once again, Gale aka Special
-              Agent Gale Scuri saves the day. You begin to wonder if Nuzkar life
-              is as dramatic as the day you've had...
+              Agent Scuri saves the day. You begin to wonder if Nuzkar life is
+              as dramatic as the day you've had...
             </p>
             <p className="gale">
               <span class="bold1">Gale:</span> Long time no see, eh? Nice work,
